@@ -30,5 +30,5 @@ var peopleNames = people.map((person) => {
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 var polyglotPeople = people.filter((person) => {
-  return parseInt(person.knownLanguages > 1)
+  return person.knownLanguages > 1
 })
