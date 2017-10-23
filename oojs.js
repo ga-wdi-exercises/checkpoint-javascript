@@ -6,8 +6,13 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
-
-
+class playlist {
+  constructor('title', songs) {
+    this.title = 'title';
+    this.songs = songs[];
+  }
+   song = new songs(,"Jane Green");
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
