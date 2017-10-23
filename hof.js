@@ -21,7 +21,7 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-let peopleNames = people.map((x) => {
+var peopleNames = people.map((x) => {
   return x.name
 })
 
@@ -30,6 +30,6 @@ let peopleNames = people.map((x) => {
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
-let polyglotPeople = people.filter((x) => {
+var polyglotPeople = people.filter((x) => {
   return x.knownLanguages > 1
 })
