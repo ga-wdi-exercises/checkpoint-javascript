@@ -21,9 +21,32 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+var peopleNames = []
+for (var i = 0; i < people.length; i++) {
+  var name = getName(people[i])
+  peopleNames.push(name)
+}
+
+
+function getName (peron){
+  return person.name
+}
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+
+function teaches2 (person) {
+  return people.knownLanguages
+}
+
+var polyglotPeople = []
+
+for (var i = 0; i < teaches2(people.length; i++) {)
+  if (teaches2(people[i])>1){
+    people.filter(teaches2)
+  }
+}
