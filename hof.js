@@ -23,7 +23,7 @@ var people = [
 
 
 var peopleNames = people.map(function(person) {
-  return person.name
+   return person.name
 })
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
@@ -31,5 +31,5 @@ var peopleNames = people.map(function(person) {
 // Type your solution immediately below this line:
 
 var polyglotPeople = people.filter(function(person){
-  return person.knownLanguages > 1
+   return person.knownLanguages > 1
 })
