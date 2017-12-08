@@ -5,7 +5,14 @@
 // - a `songs` property that is an empty array not determined by input (not passed into the constructor)
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
+// I am confused, am I being asked to make something ooj related or an array? 
+var = Playlist { 
+  title:"Kiss me, Kiss me, Kiss me ","Adrenaline", "Sunbather",
+  songs: "if only we could sleep tonight", "Fireal","dreamhouse",
+  
+ 
 
+}
 
 
 
