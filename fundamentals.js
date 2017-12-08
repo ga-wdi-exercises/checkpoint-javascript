@@ -38,3 +38,11 @@ var inststuctor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
+
+var instructor = {
+    name: 'Mike',
+    age: 26,
+    occupation: 'Instructor' = {
+        hours: 'has office hours'
+    }
+}
