@@ -29,7 +29,7 @@ var peopleNames = people.map( (thePerson) => { return thePerson.name })
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 var polyglotPeople = people.filter( (thePerson) => {
-                                    if( thePerson.knownLanguages > 2 ) {
+                                    if( thePerson.knownLanguages >= 2 ) {
                                       return true
                                     }
                                     return false
