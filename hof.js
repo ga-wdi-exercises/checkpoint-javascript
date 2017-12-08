@@ -30,7 +30,7 @@ const peopleNames = people.map(getName() {
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 const peopleNames = people.filter(getName(names) {
-  if (knownLaNGUAges > 2) {
+  if (knownLanguages > 2) {
     return name
   }
 })
