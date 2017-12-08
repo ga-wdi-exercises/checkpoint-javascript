@@ -11,8 +11,6 @@ class playlist{
     this.title = title
     this.songs = songs
     this.addSong = addSong
-
-
   }
 }
 
@@ -23,6 +21,8 @@ class playlist{
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
+var hills = new Playlist('myPlaylist')
+  hills.playlist(myplaylist.playlist)
 
 
 
