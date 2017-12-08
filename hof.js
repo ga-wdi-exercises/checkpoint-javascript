@@ -21,6 +21,7 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+var map1 = people.name.map(name => name)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
