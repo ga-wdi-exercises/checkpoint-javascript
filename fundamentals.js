@@ -35,4 +35,12 @@ var instructor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
-instructor.push("has-office-hours") = true
+instructor.push("has-office-hours"); {
+    return instructor.has-office-hours
+}
+
+/* instructor.push("has-office-hours"); {
+    if (true) {
+        instructor.has-office-hours
+    }
+} */
