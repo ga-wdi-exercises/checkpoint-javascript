@@ -20,10 +20,23 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
+function nameOfPeople (item, index) {
+  var peopleNames = [item.name].join('')
+  return peopleNames
+}
 
-
-
+function allNames () {
+  people.map(nameOfPeople)
+}
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+function filteredPeople (item, index) {
+  var polyglotPeople = [item.knownLanguages].join('')
+  return polyglotPeople >= 3
+}
+
+function allPeople () {
+  people.filter(filteredPeople)
+}
