@@ -6,6 +6,15 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
+class playlist{
+  constructor(title, songs, addSong){
+    this.title = title
+    this.songs = songs
+    this.addSong = addSong
+
+
+  }
+}
 
 
 
