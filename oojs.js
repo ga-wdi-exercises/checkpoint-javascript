@@ -11,7 +11,7 @@ class Playlist {
     this.songs = []
   }
   addSong(string) {
-    songs.push(string)
+    this.songs.push(string)
   }
 }
 
