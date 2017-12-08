@@ -7,10 +7,11 @@
 // Type your solution immediately below this line:
 class Playlist {
   constructor(title){
-    this.songs = songs
+    this.title = title
+    this.songs = []
   }
-  addSong(){
-    this.songs
+  addSong(song){
+    this.songs.push(song)
   }
   
 }
@@ -23,7 +24,8 @@ class Playlist {
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
-var myPlaylist = new Playlist()
+var myPlaylist = new Playlist("myPlaylist")
+myPlaylist.addSong("Hero")
 
 
 

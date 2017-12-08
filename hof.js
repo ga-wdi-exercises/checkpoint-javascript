@@ -20,16 +20,16 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-function namesOfInstractors(people) {
-  return people.name
-}
-var peopleNames = people.map(namesOfInstractors)
 
+
+var peopleNames = people.map(function(person) {
+  return person.name
+})
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
-function multilingual(people) {
-  return people.knownLanguages >= 2
-var polyglotPeople = people.filter(multilingual)
+var polyglotPeople = people.filter(function(person){
+  return person.knownLanguages > 1
+})
