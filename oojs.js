@@ -5,17 +5,29 @@
 // - a `songs` property that is an empty array not determined by input (not passed into the constructor)
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
+class Playlist {
+  constructor (title) {
+    this.title = title
+    this.songs = []
+  }
 
-
-
-
+  addSong () {
+    this.songs = this.songs['hey jude']
+  }
+}
+var playSong = new Playlist('hey jude')
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
+class myPlaylist extends Playlist {
+  constructor (songs) {
+    this.songs = songs
+  }
 
-
-
+  
+}
+var myPlaylist = new myPlaylist
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
