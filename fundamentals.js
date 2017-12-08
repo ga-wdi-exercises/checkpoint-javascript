@@ -6,7 +6,7 @@ var foods = ['apple', 'carrot', 'bread']
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
-var last = foods.[foods.length - 1]
+var last = foods[foods.length - 1]
 
 
 // #3: Create an empty array called `favoriteFoods`.
@@ -17,7 +17,7 @@ var favoriteFoods = []
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 for(var i = 0; i < foods.length; i++){
-    favoriteFoods.push(foods.[i])
+    favoriteFoods.push(foods[i])
 }
 
 
