@@ -5,7 +5,15 @@
 // - a `songs` property that is an empty array not determined by input (not passed into the constructor)
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
+class Playlist {
+  constructor(title)
+  title: "title"
+  songs: songs
 
+  addSong: function () {
+    return playlist.push("song" + 'input')
+  }
+}
 
 
 
