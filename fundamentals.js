@@ -3,7 +3,7 @@
 // #1: Create an array of strings called `foods` that contains three foods.
 // Type your solution immediately below this line:
 
-var foods = ['pizza', 'biryani', 'chicken']
+var foods = ['pizza','biryani', 'chicken']
 
 
 
