@@ -19,7 +19,7 @@ var people = [
 // #1: Use the `map` array method to create a new array containing the names of each
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
-// Type your solution immediately below this line:
+// Type your solution immediately below this line: mmmmmmmmmmmmm
 
 people.map(peopleNames)
 
