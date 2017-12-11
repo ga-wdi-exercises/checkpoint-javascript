@@ -1,4 +1,4 @@
-// NOTE: Make sure to use the `var` keyword for ALL variable declarations
+// NOTE: Make sure to use the `var` keyword for ALL variable declarations..
 
 var people = [
   {
@@ -27,3 +27,9 @@ var people = [
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+function multipleLanguages (languages) {
+  return languages > 1;
+}
+function myFunction() {
+  document.getElementById('demo').innerHTML = people.filter(languages)
+}
