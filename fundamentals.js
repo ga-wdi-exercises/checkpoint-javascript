@@ -1,4 +1,4 @@
-// NOTE: Make sure to use the `var` keyword for ALL variable declarations.
+// NOTE: Make sure to use the `var` keyword for ALL variable declarations..
 
 // #1: Create an array of strings called `foods` that contains three foods.
 // Type your solution immediately below this line:
