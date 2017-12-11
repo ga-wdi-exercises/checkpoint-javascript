@@ -1,4 +1,4 @@
-// NOTE: Make sure to use the `var` keyword for ALL variable declarations
+// NOTE: Make sure to use the `var` keyword for ALL variable declarations..
 
 var people = [
   {
