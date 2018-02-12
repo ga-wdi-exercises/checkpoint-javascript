@@ -19,15 +19,15 @@ var favoriteFoods = []
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 for (i=0; i <3; i++) {
-    foods.push(favoriteFoods[])
+    foods.push(favoriteFoods)
 }
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 var instructor = {
     name: 'string value'
-    age: 30
-    yearsExperience: 2
+    age: '30'
+    yearsExperience: '2'
 }
 
 
