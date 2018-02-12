@@ -26,4 +26,4 @@ var peopleNames = people.map(person => (person.name))
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
-var peopleNames = people.filter(person => (person.name))
+var polyglotPeople = people.filter(person => (person.name))
