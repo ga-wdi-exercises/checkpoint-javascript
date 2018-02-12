@@ -37,5 +37,5 @@ var instructor = {
 // Type your solution immediately below this line:
 
 
-instructor.["has-office-hours"] = "sometimes"
+instructor.("has-office-hours") = "sometimes"
 
