@@ -12,7 +12,7 @@
     }
     addSong (newSong) {
       this.songs.push(newSong)
-      }
+    }
     }
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
@@ -21,7 +21,7 @@
   myPlaylist.addSong('One Love')
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-  if(typeof Playlist !== 'undefined') {
+  if (typeof Playlist !== 'undefined') {
     module.exports = {
       Playlist
     }
