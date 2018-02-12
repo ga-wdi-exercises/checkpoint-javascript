@@ -21,9 +21,15 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+// I'm googling this way too much to have any clue how to actually use it right now. 
+// Obvs it didn't stick. Need more practice. Bein' real.
+
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+// Once again, not enough time with this concept to grasp it. I'll try to implement these
+// ideas in my project somehow to practice them.
