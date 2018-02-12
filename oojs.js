@@ -6,7 +6,12 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
-
+var Playlist = {
+ constructor (title, songs, addSong)
+  title= this.title
+  songs= this.songs
+  addSong= this.add
+}
 
 
 
