@@ -2,15 +2,15 @@
 
 var people = [
   {
-    name: "Layla",
+    name: 'Layla',
     age: 27,
     knownLanguages: 3
   }, {
-    name: "Keanu",
+    name: 'Keanu',
     age: 54,
     knownLanguages: 1
   }, {
-    name: "Jasmine",
+    name: 'Jasmine',
     age: 35,
     knownLanguages: 2
   }
@@ -21,9 +21,11 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-
+var peopleNames = people.map(x => x * 2)
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+
