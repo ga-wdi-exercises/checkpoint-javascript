@@ -7,14 +7,14 @@
 // Type your solution immediately below this line:
 
 
-
+//I have no idea where to even begin to start this, unfortunately. 
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
-
+//Same as above. I'm completely lost to even understand how to complete this one.
 
 
 
