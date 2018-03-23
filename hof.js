@@ -1,4 +1,7 @@
 // NOTE: Make sure to use the `var` keyword for ALL variable declarations
+var C = function (...param) {
+  console.log(param.join(' '))
+}
 
 var people = [
   {
@@ -21,9 +24,15 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+var peopleNames = people.map((person) => person.name)
+C(peopleNames)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+var polyglotPeople = people.filter((person) => person.knownLanguages > 1)
+C(polyglotPeople)
+
