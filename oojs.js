@@ -7,7 +7,7 @@
 // Type your solution immediately below this line:
 
 class Playlist {
-  constructor (title, songs, addSong)
+  constructor (title, songs)
   this.title = title
   this.songs = [ ]
 }
