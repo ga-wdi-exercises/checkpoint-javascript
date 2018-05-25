@@ -11,12 +11,14 @@ var last = foods[foods.length-1]
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
-
+var favoriteFoods = []
 
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
-
+for (var i =0; i<foods.length; i++) {
+    favoriteFoods.push(foods[i])
+}
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
