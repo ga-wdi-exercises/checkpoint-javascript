@@ -5,11 +5,13 @@ var people = [
     name: "Layla",
     age: 27,
     knownLanguages: 3
-  }, {
+  }, 
+  {
     name: "Keanu",
     age: 54,
     knownLanguages: 1
-  }, {
+  }, 
+  {
     name: "Jasmine",
     age: 35,
     knownLanguages: 2
@@ -21,9 +23,16 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+const peopleNames = people.map();
+
+console.log(peopleNames)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+function filter(people) {
+  return knownLanguages > 2;
+}
