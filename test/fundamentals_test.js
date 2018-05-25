@@ -1,3 +1,12 @@
+var foods = ['vegan cheesesteak', 'bage', 'eggs']
+var favoriteFoods = foods
+var last = foods[2]
+var instructor = {
+  firstName: 'Jimmy',
+  lastName: 'Bayess',
+  favoriteFood: 'Beijing Duck',
+  "has-office-hours": true
+}
 var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
