@@ -34,9 +34,10 @@ console.log(peopleNames);
 // Type your solution immediately below this line:
 
 
-var polyglotPeople = people.filter(function(name) {
-  if(people.knownLanguages > 1) {
-    return name;
+var polyglotPeople = people.filter(function(person) {
+  if(person.knownLanguages > 1) {
+    return person.name;
   }
-  return polyglotPeople;
 })
+
+console.log(polyglotPeople);
