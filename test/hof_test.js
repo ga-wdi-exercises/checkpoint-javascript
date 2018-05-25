@@ -1,7 +1,15 @@
+var peopleNames = ['Layla', 'Keanu', 'Jasmine']
+var people = peopleNames.length
+var polyglotPeople = peopleNames
 var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
+ var peopleMapper = peopleNames.map()
+ console.log(peopleMapper)
+
+var polyFilter = polyglotPeople.filter(people)
+console.log(polyFilter)
 
 describe('HOF #1', function() {
   let section = hof.slice(
