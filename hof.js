@@ -21,8 +21,8 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-function getName (item, i) {
-  var name = [item.name].join(" ")
+function getName (item) {
+  var name = [item.name].join(' ')
   return name
 }
 
@@ -33,6 +33,8 @@ var peopleNames = people.map(getName)
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
-var polyglotPeople = people.filter(function(lang){
-  if(people.)
+var polyglotPeople = people.filter(function (lang) {
+  if (people.lang > 1) {
+    return lang
+  }
 })
