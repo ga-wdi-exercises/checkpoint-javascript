@@ -4,34 +4,30 @@
 // Type your solution immediately below this line:
 var foods = ['pizza', 'cheese', 'sausage']
 
-
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
-var last = foods[foods.length-1]
+var last = foods[foods.length - 1]
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
 var favoriteFoods = []
 
-
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
-for (var i =0; i<foods.length; i++) {
-    favoriteFoods.push(foods[i])
+for (var i = 0; i < foods.length; i++) {
+  favoriteFoods.push(foods[i])
 }
-
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 var instructor = {
-    firstName: 'Bill',
-    lastName: 'Nye',
-    nickName: 'The Science Guy'
+  firstName: 'Bill',
+  lastName: 'Nye',
+  nickName: 'The Science Guy'
 }
-
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
-instructor['has-office-hours']= true
+instructor['has-office-hours'] = true
