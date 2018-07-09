@@ -14,11 +14,11 @@ describe('Fundamentals #1', function() {
   catch(e) {
     console.log(e)
   }
-  if('foods is an array', function() {
+  it('foods is an array', function() {
     var food = ["food is an array"]
     expect(foods).to.be.an('array')
   })
-  if('foods contains three strings', function() {
+  it('foods contains three strings', function() {
     var foodThreeStrings = ["string1", "string2", "string3"]
     expect(foods.length).to.equal(3)
     expect(foods.every(food => food.constructor === String)).to.equal(true)
@@ -37,9 +37,12 @@ describe('Fundamentals #2', function() {
     console.log(e)
   }
   it('last is a string', function() {
+    var last = "last";
     expect(last).to.be.a('string')
   })
   it('last is equal to the last item in foods', function() {
+    var last = "string3"
+    
     expect(last).to.equal(foods[2])
   })
 })
