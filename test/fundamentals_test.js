@@ -3,6 +3,11 @@ var expect = require("chai").expect
 var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
 
+
+
+var foods = ["cake", "brownie", "gelato"]
+
+
 describe('Fundamentals #1', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #1'),
@@ -23,6 +28,8 @@ describe('Fundamentals #1', function() {
   })
 })
 
+
+
 describe('Fundamentals #2', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #1'),
@@ -41,6 +48,8 @@ describe('Fundamentals #2', function() {
     expect(last).to.equal(foods[2])
   })
 })
+
+
 
 describe('Fundamentals #3', function() {
   let section = fundamentals.slice(
@@ -89,6 +98,7 @@ describe('Fundamentals #4', function() {
     )
   })
 })
+
 
 describe('Fundamentals #5', function() {
   let section = fundamentals.slice(
