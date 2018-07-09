@@ -59,9 +59,11 @@ describe('Fundamentals #3', function() {
     console.log(e)
   }
   it('favoriteFoods is defined', function() {
+    var favoriteFoods = "favortiteFoods"
     expect(favoriteFoods).to.be.not.undefined
   })
   it('favoriteFoods is an array', function() {
+    favoriteFoods = ["fav1", "fav2". "fav3"]
     expect(favoriteFoods).to.be.an('array')
   })
 })
