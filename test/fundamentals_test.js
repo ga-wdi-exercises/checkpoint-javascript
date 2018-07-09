@@ -15,7 +15,6 @@ describe('Fundamentals #1', function() {
     console.log(e)
   }
   it('foods is an array', function() {
-    var foods
     var foods = ['foods is an array']
     expect(foods).to.be.an('array')
   })
@@ -90,7 +89,7 @@ describe('Fundamentals #4', function() {
     expect(favoriteFoods.length).to.equal(3)
   })
   it('favoriteFoods contains the same values as foods', function() {
-    var foods
+    
       var favoriteFoods = foods + favoriteFoods
 
     expect(
@@ -163,17 +162,13 @@ describe('Fundamentals #6', function() {
   })
   it('instructor has a has-office-hours property', function() {
     var instructor = {
-      key1: 'value1',
-      key2: 'value2',
-     '' has-office-hours: true
+    hasofficehours: true
     }
     expect(instructor).to.have.property('has-office-hours')
   })
   it('has-office-hours has a boolean value', function() {
     var instructor = {
-      key1: 'value1',
-      key2: 'value2',
-    '' has-office-hours: true
+    hasofficehours: true
     }
     expect(instructor).property('has-office-hours').to.be.a('boolean')
   })
