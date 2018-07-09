@@ -112,9 +112,15 @@ describe('Fundamentals #5', function() {
   }
   it('instructor is an object', function() {
     expect(instructor).to.be.an('object')
+    var Instructor = {}
   })
   it('instructor has three key-value pairs', function() {
     expect(Object.keys(instructor)).to.have.lengthOf(3)
+    var Instructor = {
+      name: "",
+      age: "",
+      DoB: ""
+    }
   })
   it('instructor does not have a \'has-office-hours\' property', function() {
     expect(instructor).to.not.have.any.keys('has-office-hours')
