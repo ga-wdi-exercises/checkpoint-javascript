@@ -4,7 +4,7 @@ var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
 
 describe('Fundamentals #1', function() {
-  let section = fundamentals.slice(
+  var section = fundamentals.slice(
     fundamentals.indexOf('// #1'),
     fundamentals.indexOf('// #2')
   )
@@ -24,7 +24,7 @@ describe('Fundamentals #1', function() {
 })
 
 describe('Fundamentals #2', function() {
-  let section = fundamentals.slice(
+  var section = fundamentals.slice(
     fundamentals.indexOf('// #1'),
     fundamentals.indexOf('// #3')
   )
@@ -43,7 +43,7 @@ describe('Fundamentals #2', function() {
 })
 
 describe('Fundamentals #3', function() {
-  let section = fundamentals.slice(
+  var section = fundamentals.slice(
     fundamentals.indexOf('// #3'),
     fundamentals.indexOf('// #4')
   )
@@ -62,7 +62,7 @@ describe('Fundamentals #3', function() {
 })
 
 describe('Fundamentals #4', function() {
-  let section =
+  var section =
     fundamentals.slice(
       fundamentals.indexOf('// #1'),
       fundamentals.indexOf('// #2')
@@ -91,7 +91,7 @@ describe('Fundamentals #4', function() {
 })
 
 describe('Fundamentals #5', function() {
-  let section = fundamentals.slice(
+  var section = fundamentals.slice(
     fundamentals.indexOf('// #5'),
     fundamentals.indexOf('// #6')
   )
@@ -113,7 +113,7 @@ describe('Fundamentals #5', function() {
 })
 
 describe('Fundamentals #6', function() {
-  let section = fundamentals.slice(
+  var section = fundamentals.slice(
     fundamentals.indexOf('// #5')
   )
   try {
