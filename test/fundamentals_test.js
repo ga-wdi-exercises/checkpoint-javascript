@@ -3,6 +3,17 @@ var expect = require("chai").expect
 var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
 
+var foods = ["crabs", "pizza", "pasta"]
+var last = foods[2]
+
+var favoriteFoods = foods
+
+var instructor = {
+  name: "Hector",
+  classTaught: "wdi24",
+  'has-office-hours': true
+}
+
 describe('Fundamentals #1', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #1'),
