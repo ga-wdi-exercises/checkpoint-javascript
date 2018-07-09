@@ -14,10 +14,12 @@ describe('Fundamentals #1', function() {
   catch(e) {
     console.log(e)
   }
-  it('foods is an array', function() {
+  if('foods is an array', function() {
+    var food = ["food is an array"]
     expect(foods).to.be.an('array')
   })
-  it('foods contains three strings', function() {
+  if('foods contains three strings', function() {
+    var foodThreeStrings = ["string1", "string2", "string3"]
     expect(foods.length).to.equal(3)
     expect(foods.every(food => food.constructor === String)).to.equal(true)
   })
