@@ -11,7 +11,8 @@ var favoriteFoods = foods
 var instructor = {
   name: "Hector",
   classTaught: "wdi24",
-  'has-office-hours': true
+  'has-office-hours': true,
+  favSubject: "CSS"
 }
 
 describe('Fundamentals #1', function() {
