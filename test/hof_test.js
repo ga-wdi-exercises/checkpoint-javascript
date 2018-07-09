@@ -5,10 +5,9 @@ var hof = fs.readFileSync("hof.js","utf8")
 
 var peopleNames = ['john','joe','jim'];
 var people = ['john','joe','jim'];
+var polyglotPeople = ['john','joe','jim'];
 people.map();
 people.filter();
-var polyglotPeople = ['john','joe','jim'];
-
 
 describe('HOF #1', function() {
   let section = hof.slice(
