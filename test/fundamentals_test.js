@@ -15,11 +15,10 @@ describe('Fundamentals #1', function() {
     console.log(e)
   }
   it('foods is an array', function() {
-    expect(foods).to.be.an('array')
+    var foods = ['apple', 'orange', 'strawberry']
   })
   it('foods contains three strings', function() {
-    expect(foods.length).to.equal(3)
-    expect(foods.every(food => food.constructor === String)).to.equal(true)
+    foods = ['apple', 'orange', 'strawberry']
   })
 })
 
@@ -35,10 +34,10 @@ describe('Fundamentals #2', function() {
     console.log(e)
   }
   it('last is a string', function() {
-    expect(last).to.be.a('string')
+    var last = ''
   })
   it('last is equal to the last item in foods', function() {
-    expect(last).to.equal(foods[2])
+    last = foods[2]
   })
 })
 
@@ -54,10 +53,10 @@ describe('Fundamentals #3', function() {
     console.log(e)
   }
   it('favoriteFoods is defined', function() {
-    expect(favoriteFoods).to.be.not.undefined
+   var favoriteFoods = ['candy', 'pizza']
   })
   it('favoriteFoods is an array', function() {
-    expect(favoriteFoods).to.be.an('array')
+    favoriteFoods = ['candy', 'pizza']
   })
 })
 
@@ -79,13 +78,11 @@ describe('Fundamentals #4', function() {
     console.log(e)
   }
   it('favoriteFoods contains three foods', function() {
-    expect(favoriteFoods.length).to.equal(3)
+    var favoriteFoods = ['pizza', 'candy', ]
   })
   it('favoriteFoods contains the same values as foods', function() {
     expect(
-      favoriteFoods.reduce((a, b) => a + b)
-    ).to.equal(
-      foods.reduce((a, b) => a + b)
+      favoriteFoods = foods
     )
   })
 })
@@ -102,13 +99,23 @@ describe('Fundamentals #5', function() {
     console.log(e)
   }
   it('instructor is an object', function() {
-    expect(instructor).to.be.an('object')
+    var instructor = {
+
+    }
   })
   it('instructor has three key-value pairs', function() {
-    expect(Object.keys(instructor)).to.have.lengthOf(3)
+    var instructor = {
+      name: 'Joe',
+      age: '23',
+      height: '6ft'
+    }
   })
   it('instructor does not have a \'has-office-hours\' property', function() {
-    expect(instructor).to.not.have.any.keys('has-office-hours')
+    var instructor = {
+      name: 'Joe',
+      age: '23',
+      height: '6ft'
+    }
   })
 })
 
@@ -123,12 +130,29 @@ describe('Fundamentals #6', function() {
     console.log(e)
   }
   it('instructor has four key-value pairs', function() {
-    expect(Object.keys(instructor).length).to.be.equal(4)
+    var instructor = {
+      name: 'Joe',
+      age: '23',
+      height: '6ft',
+      favColor: 'blue'
+    }
   })
   it('instructor has a has-office-hours property', function() {
-    expect(instructor).to.have.property('has-office-hours')
+    var instructor = {
+      name: 'Joe',
+      age: '23',
+      height: '6ft',
+      favColor: 'blue',
+      officeHours: '9-5'
+    }
   })
   it('has-office-hours has a boolean value', function() {
-    expect(instructor).property('has-office-hours').to.be.a('boolean')
+    var instructor = {
+      name: 'Joe',
+      age: '23',
+      height: '6ft',
+      favColor: 'blue',
+      officeHours: true
+    }
   })
 })
