@@ -8,7 +8,9 @@ var favoriteFoods = ['bananas','berrys','last'];
 var instructor = {
     name: 'Lawrence',
     age: 15, 
-    friend: 'Luke'
+    friend: 'Luke',
+    robot: 'dog',
+    has-office-hours: true
 }
 
 
