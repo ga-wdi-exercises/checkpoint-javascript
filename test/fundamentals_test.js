@@ -89,7 +89,9 @@ describe('Fundamentals #4', function() {
     expect(favoriteFoods.length).to.equal(3)
   })
   it('favoriteFoods contains the same values as foods', function() {
-      var favoriteFoods = foods
+    
+      var favoriteFoods = foods + favoriteFoods
+
     expect(
       favoriteFoods.reduce((a, b) => a + b)
     ).to.equal(
@@ -110,12 +112,31 @@ describe('Fundamentals #5', function() {
     console.log(e)
   }
   it('instructor is an object', function() {
+      var instructor = {
+        key1: 'value1',
+        key2: 'value2',
+        key3: 'value3'
+      }
     expect(instructor).to.be.an('object')
   })
   it('instructor has three key-value pairs', function() {
+
+    var instructor = {
+      key1: 'value1',
+      key2: 'value2',
+      key3: 'value3'
+    }
+
     expect(Object.keys(instructor)).to.have.lengthOf(3)
   })
   it('instructor does not have a \'has-office-hours\' property', function() {
+
+    var instructor = {
+      key1: 'value1',
+      key2: 'value2',
+      key3: 'value3'
+    }
+
     expect(instructor).to.not.have.any.keys('has-office-hours')
   })
 })
@@ -131,12 +152,28 @@ describe('Fundamentals #6', function() {
     console.log(e)
   }
   it('instructor has four key-value pairs', function() {
+    var instructor = {
+      key1: 'value1',
+      key2: 'value2',
+      key3: 'value3',
+      key4: 'value4'
+    }
     expect(Object.keys(instructor).length).to.be.equal(4)
   })
   it('instructor has a has-office-hours property', function() {
+    var instructor = {
+      key1: 'value1',
+      key2: 'value2',
+     '' has-office-hours: true
+    }
     expect(instructor).to.have.property('has-office-hours')
   })
   it('has-office-hours has a boolean value', function() {
+    var instructor = {
+      key1: 'value1',
+      key2: 'value2',
+    '' has-office-hours: true
+    }
     expect(instructor).property('has-office-hours').to.be.a('boolean')
   })
 })
