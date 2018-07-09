@@ -3,6 +3,13 @@ var expect = require("chai").expect
 var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
 
+var peopleNames = ["Layla", "Keanu", "Jasmine"]
+//var people = peopleNames.map()
+var polyglotPeople = []
+polyglotPeople.push("Layla")
+polyglotPeople.push("Keanu")
+
+
 describe('HOF #1', function() {
   let section = hof.slice(
     0,
