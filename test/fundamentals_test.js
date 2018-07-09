@@ -4,7 +4,8 @@ var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
 var foods = ['string1','string2','last'];
 var last = 'last'
-var favoriteFoods = [];
+var favoriteFoods = ['bananas','berrys','pinapple'];
+
 
 
 describe('Fundamentals #1', function() {
