@@ -1,3 +1,27 @@
+// Fundamentals #1
+var foods = ['pizza', 'tacos', 'ramen']
+
+// Fundamentals #2
+var last = foods[2]
+
+// Fundamentals #3 & #4
+var favoriteFoods = foods
+
+// Fundamentals #5
+var instructor = {
+  name: 'hector',
+  cohort: 24,
+  subject: 'wdi'
+}
+
+// Fundamentals #6 - #5 is returning as test failed because of the additions of #6
+var instructor = {
+  name: 'hector',
+  cohort: 24,
+  subject: 'wdi',
+  'has-office-hours': true
+}
+
 var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
