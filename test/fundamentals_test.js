@@ -2,6 +2,15 @@ var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
+var foods = ["cookie", "pizza", "noodles"]
+var last = foods[2]
+var favoriteFoods = ["cookie", "pizza", "noodles"]
+var instructor = {
+  name: "Hector",
+  cohort: "wdi24",
+  subject: "JavaScript"
+}
+
 
 describe('Fundamentals #1', function() {
   let section = fundamentals.slice(
