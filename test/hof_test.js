@@ -4,7 +4,7 @@ var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
 
 describe('HOF #1', function() {
-  let section = hof.slice(
+  var section = hof.slice(
     0,
     hof.indexOf('// #2')
   )
@@ -27,7 +27,7 @@ describe('HOF #1', function() {
 })
 
 describe('HOF #2', function() {
-  let section =
+  var section =
     hof.slice(
       0,
       hof.indexOf('// #1')
@@ -49,7 +49,7 @@ describe('HOF #2', function() {
     expect(hof).to.include('people.filter')
   })
   it('polyglotPeople only contains persons who know multiple languages', function() {
-    let expectedPeople = people.filter((v,i) => i!==1)
+    var expectedPeople = people.filter((v,i) => i!==1)
     expect(polyglotPeople).to.deep.equal(expectedPeople)
   })
 })
