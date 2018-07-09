@@ -10,7 +10,7 @@ var instructor = {
     age: 15, 
     friend: 'Luke',
     robot: 'dog',
-    has-office-hours: true
+    'has-office-hours': true
 }
 
 
