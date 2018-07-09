@@ -2,6 +2,13 @@ var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
+var peopleNames = ["Layla", "Keanu", "Jasmine"]
+var people = []
+var polyglotPeople = []
+
+
+peopleNames = people.map(names => names)
+polyglotPeople = people.filter(expectedPeople => expectedPeople)
 
 describe('HOF #1', function() {
   let section = hof.slice(
