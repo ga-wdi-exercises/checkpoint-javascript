@@ -2,7 +2,9 @@ var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
-
+//#1
+var peopleNames = []
+peopleNames = names.map(function(name))
 describe('HOF #1', function() {
   let section = hof.slice(
     0,
