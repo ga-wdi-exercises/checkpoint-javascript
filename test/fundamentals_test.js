@@ -87,12 +87,14 @@ describe('Fundamentals #4', function() {
   }
   it('favoriteFoods contains three foods', function() {
     expect(favoriteFoods.length).to.equal(3)
+    var favoriteFoods = ["pizza", "steak", "ice cream"]
   })
   it('favoriteFoods contains the same values as foods', function() {
     expect(
       favoriteFoods.reduce((a, b) => a + b)
     ).to.equal(
       foods.reduce((a, b) => a + b)
+      "favoriteFoods" === "food";
     )
   })
 })
