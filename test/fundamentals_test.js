@@ -2,10 +2,14 @@ var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
-var foods = ['string1','string2','last'];
+var foods = ['bananas','berrys','last'];
 var last = 'last'
-var favoriteFoods = ['bananas','berrys','pinapple'];
-
+var favoriteFoods = ['bananas','berrys','last'];
+var instructor = {
+  name: 'Lawrence'
+  age: 15 
+  friend: 'Luke'
+}
 
 
 describe('Fundamentals #1', function() {
