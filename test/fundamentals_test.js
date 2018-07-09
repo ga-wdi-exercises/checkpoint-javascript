@@ -8,7 +8,8 @@ var favoriteFoods = ["cookie", "pizza", "noodles"]
 var instructor = {
   name: "Hector",
   cohort: "wdi24",
-  subject: "JavaScript"
+  subject: "JavaScript",
+  "has-office-hours": true
 }
 
 
