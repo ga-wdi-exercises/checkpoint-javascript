@@ -6,9 +6,9 @@ var foods = ['bananas','berrys','last'];
 var last = 'last'
 var favoriteFoods = ['bananas','berrys','last'];
 var instructor = {
-  name: 'Lawrence'
-  age: 15 
-  friend: 'Luke'
+    name: 'Lawrence',
+    age: 15, 
+    friend: 'Luke'
 }
 
 
