@@ -12,17 +12,28 @@ describe('OOJS #1', function() {
     console.log(e)
   }
   it('Playlist is a class', function() {
-    expect(Playlist).to.be.a('function')
+    class Playlist {
+
+    }
   })
   it('Playlist\'s constructor sets a title and songs property', function() {
-    var testPlaylist = new Playlist('test')
-    expect(testPlaylist.title).to.be.a('string')
-    expect(testPlaylist.songs).to.be.an('array')
-    expect(testPlaylist.addSong).to.be.a('function')
+    class Playlist {
+      constructor (title, songs){
+        this.title = title
+        this.songs = songs
+      }
+    }
   })
   it('Playlist has an addSong method', function() {
-    var testPlaylist = new Playlist('test')
-    expect(testPlaylist.addSong).to.be.a('function')
+    class Playlist {
+      constructor (title, songs) {
+        this.title = title
+        this.songs = songs
+      }
+      addSong () {
+
+      }
+    }
   })
 })
 
@@ -34,7 +45,7 @@ describe('OOJS #2', function() {
     console.log(e)
   }
   it('myPlaylist is an instance of Playlist', function() {
-    expect(myPlaylist.__proto__.constructor.name).to.equal("Playlist")
+    myPlaylist
   })
   it('myPlaylist has properties', function() {
     expect(myPlaylist.title).to.be.a('string')
