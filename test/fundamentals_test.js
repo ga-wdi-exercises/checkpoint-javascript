@@ -3,6 +3,8 @@ var expect = require("chai").expect
 var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
 
+//#1
+var foods = ['Apple', 'Banana', 'Plum']
 describe('Fundamentals #1', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #1'),
@@ -22,7 +24,8 @@ describe('Fundamentals #1', function() {
     expect(foods.every(food => food.constructor === String)).to.equal(true)
   })
 })
-
+//#2
+var last = `${foods[2]}`
 describe('Fundamentals #2', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #1'),
@@ -41,7 +44,8 @@ describe('Fundamentals #2', function() {
     expect(last).to.equal(foods[2])
   })
 })
-
+//#3
+var favoriteFoods = []
 describe('Fundamentals #3', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #3'),
@@ -61,6 +65,10 @@ describe('Fundamentals #3', function() {
   })
 })
 
+//#4
+foods.forEach(function(food){
+  favoriteFoods.push(food)
+})
 describe('Fundamentals #4', function() {
   let section =
     fundamentals.slice(
@@ -90,6 +98,12 @@ describe('Fundamentals #4', function() {
   })
 })
 
+//#5
+var instructor = {
+  name: "Hector",
+  teaches: "WDI",
+  room: 3
+}
 describe('Fundamentals #5', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #5'),
@@ -111,7 +125,8 @@ describe('Fundamentals #5', function() {
     expect(instructor).to.not.have.any.keys('has-office-hours')
   })
 })
-
+//#6
+instructor["has-office-hours"] = new Boolean()
 describe('Fundamentals #6', function() {
   let section = fundamentals.slice(
     fundamentals.indexOf('// #5')
