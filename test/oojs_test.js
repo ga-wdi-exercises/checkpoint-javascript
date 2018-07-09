@@ -6,7 +6,7 @@ var oojs = fs.readFileSync("oojs.js","utf8")
 class Playlist {
   constructor(title,songs){
     this.title = [];
-    this.songs = [];
+    this.songs = ['Welcome to My world'];
   }
   addSong () {
     this.songs.push();
