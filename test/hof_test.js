@@ -1,3 +1,12 @@
+// HOF #1
+var peopleNames = []
+var people = ['neil', 'erin', 'mike', 'sean']
+
+people.map = peopleNames
+
+// HOF #2
+var polyglotPeople = []
+
 var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")

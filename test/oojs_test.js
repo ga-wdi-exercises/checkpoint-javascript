@@ -1,3 +1,26 @@
+// OOJS #1
+class Playlist {
+  constructor(title, songs) {
+    this.title = title
+    this.songs = songs
+  }
+
+  addSongs() {
+    this.songs.push('new song')
+  }
+}
+
+//OOJS #2
+class myPlaylist extends Playlist {
+  constructor(title, songs) {
+    super (title, songs)
+
+    this.occasion = occasion
+  }
+}
+
+myPlaylist = ('party playlist', 25, 'bbq')
+
 var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
