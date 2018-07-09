@@ -3,11 +3,11 @@ var expect = require("chai").expect
 var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
 
-var peopleNames = ['john','joe','jim'];
-var people = ['john','joe','jim'];
-var polyglotPeople = ['john','joe','jim'];
-people.map();
-people.filter();
+var peopleNames = ['john','joe','jim']
+var people = ['john','joe','jim']
+var polyglotPeople = ['john','joe','jim']
+people.map()
+people.filter()
 
 describe('HOF #1', function() {
   let section = hof.slice(
@@ -22,6 +22,7 @@ describe('HOF #1', function() {
   }
   it('peopleNames should be an array', function() {
     expect(peopleNames).to.be.an('array')
+    peopleNames 
   })
   it('.map should be called on `people`', function() {
     expect(hof).to.include('people.map')
