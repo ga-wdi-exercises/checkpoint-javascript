@@ -16,13 +16,16 @@ describe('HOF #1', function() {
   }
   it('peopleNames should be an array', function() {
     expect(peopleNames).to.be.an('array')
+    var peopleNames = [];
   })
   it('.map should be called on `people`', function() {
     expect(hof).to.include('people.map')
+    var map1 = peopleNames.map;
   })
   it('peopleNames should contain the names of each person in the people array', function() {
     let names = ["Layla", "Keanu", "Jasmine"]
     expect(peopleNames).to.deep.equal(names)
+    var peopleNames = ["Layla", "Keanu", "Jasmine"];
   })
 })
 

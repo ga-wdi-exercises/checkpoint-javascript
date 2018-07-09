@@ -63,7 +63,7 @@ describe('Fundamentals #3', function() {
     expect(favoriteFoods).to.be.not.undefined
   })
   it('favoriteFoods is an array', function() {
-    favoriteFoods = ["fav1", "fav2". "fav3"]
+    favoriteFoods = ["fav1", "fav2", "fav3"]
     expect(favoriteFoods).to.be.an('array')
   })
 })
@@ -94,7 +94,7 @@ describe('Fundamentals #4', function() {
       favoriteFoods.reduce((a, b) => a + b)
     ).to.equal(
       foods.reduce((a, b) => a + b)
-      "favoriteFoods" === "food";
+      // "favoriteFoods" === "food";
     )
   })
 })
@@ -139,9 +139,21 @@ describe('Fundamentals #6', function() {
   }
   it('instructor has four key-value pairs', function() {
     expect(Object.keys(instructor).length).to.be.equal(4)
+    var instructor = {
+      name: "",
+      age: "",
+      eye_color:  "", 
+      office_hour: ""
+    }
   })
   it('instructor has a has-office-hours property', function() {
     expect(instructor).to.have.property('has-office-hours')
+    var instructor = {
+      name: "",
+      age: "",
+      eye_color:  "", 
+      office_hour: ""
+    }
   })
   it('has-office-hours has a boolean value', function() {
     expect(instructor).property('has-office-hours').to.be.a('boolean')
