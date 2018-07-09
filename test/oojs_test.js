@@ -13,8 +13,10 @@ class Playlist = {
   }
 }
 class myPlaylist extends Playlist {
-  constructor(){
-    
+  constructor(friends,beaches){
+    super(title,songs)
+    this.friends = [];
+    this.beaches =[];
   }
 }
 

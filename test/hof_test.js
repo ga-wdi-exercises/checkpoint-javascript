@@ -5,7 +5,7 @@ var hof = fs.readFileSync("hof.js","utf8")
 
 var peopleNames = ['john','joe','jim']
 var people = ['john','joe','jim']
-var polyglotPeople = ['john','joe','jim']
+var polyglotPeople = ['Frida Khalo','Albert Einstein','Jackie Chan']
 people.map()
 people.filter()
 
