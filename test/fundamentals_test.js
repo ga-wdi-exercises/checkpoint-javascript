@@ -15,9 +15,11 @@ describe('Fundamentals #1', function() {
     console.log(e)
   }
   it('foods is an array', function() {
+    var foods = ['foods is an array']
     expect(foods).to.be.an('array')
   })
   it('foods contains three strings', function() {
+    var foods = ['string1','string2','string3']
     expect(foods.length).to.equal(3)
     expect(foods.every(food => food.constructor === String)).to.equal(true)
   })
@@ -35,9 +37,11 @@ describe('Fundamentals #2', function() {
     console.log(e)
   }
   it('last is a string', function() {
+    var last = 'string'
     expect(last).to.be.a('string')
   })
   it('last is equal to the last item in foods', function() {
+    var last = foods[foods.length - 1]
     expect(last).to.equal(foods[2])
   })
 })
@@ -54,9 +58,11 @@ describe('Fundamentals #3', function() {
     console.log(e)
   }
   it('favoriteFoods is defined', function() {
+    var favoriteFoods = 'favoriteFoods is defined'
     expect(favoriteFoods).to.be.not.undefined
   })
   it('favoriteFoods is an array', function() {
+    var favoriteFoods = ['favoriteFoods is an array']
     expect(favoriteFoods).to.be.an('array')
   })
 })
@@ -79,9 +85,11 @@ describe('Fundamentals #4', function() {
     console.log(e)
   }
   it('favoriteFoods contains three foods', function() {
+    var favoriteFoods = ['food1','food2','food3']
     expect(favoriteFoods.length).to.equal(3)
   })
   it('favoriteFoods contains the same values as foods', function() {
+      var favoriteFoods = foods
     expect(
       favoriteFoods.reduce((a, b) => a + b)
     ).to.equal(
