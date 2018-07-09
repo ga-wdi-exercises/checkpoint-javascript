@@ -15,6 +15,7 @@ describe('Fundamentals #1', function() {
     console.log(e)
   }
   it('foods is an array', function() {
+    var foods
     var foods = ['foods is an array']
     expect(foods).to.be.an('array')
   })
@@ -89,7 +90,7 @@ describe('Fundamentals #4', function() {
     expect(favoriteFoods.length).to.equal(3)
   })
   it('favoriteFoods contains the same values as foods', function() {
-    
+    var foods
       var favoriteFoods = foods + favoriteFoods
 
     expect(
