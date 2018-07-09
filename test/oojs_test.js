@@ -3,6 +3,22 @@ var expect = require("chai").expect
 var fs = require("fs")
 var oojs = fs.readFileSync("oojs.js","utf8")
 
+  class Playlist {
+  constructor (title, songs) {
+    this.title = "title"
+    this.songs = "songs"
+  }
+
+  addSong(title) {
+    Playlist.push(title)
+  }
+}
+
+var myPlaylist = new Playlist ("Grenade", 2) {
+  addSong("Illionaire")
+}
+  
+
 
 describe('OOJS #1', function() {
   try {
