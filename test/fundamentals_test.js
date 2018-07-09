@@ -12,6 +12,10 @@ var instructor = {
     robot: 'dog',
     'has-office-hours': true
 }
+var peopleNames = ['john','joe','jim'];
+var people = ['john','joe','jim'];
+people.map();
+
 
 
 describe('Fundamentals #1', function() {
