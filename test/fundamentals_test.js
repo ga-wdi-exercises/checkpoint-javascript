@@ -6,10 +6,7 @@ var fundamentals = fs.readFileSync("fundamentals.js","utf8")
 
 
 var foods = ["cake", "brownie", "gelato"]
-var last = " "
-var last = "foods(3)"
 
-var favoriteFoods = [" "]
 
 describe('Fundamentals #1', function() {
   let section = fundamentals.slice(
@@ -31,7 +28,7 @@ describe('Fundamentals #1', function() {
   })
 })
 
-var last = foods[3]
+
 
 describe('Fundamentals #2', function() {
   let section = fundamentals.slice(
@@ -52,7 +49,7 @@ describe('Fundamentals #2', function() {
   })
 })
 
-var favoriteFoods = [" "]
+
 
 describe('Fundamentals #3', function() {
   let section = fundamentals.slice(
@@ -101,14 +98,6 @@ describe('Fundamentals #4', function() {
     )
   })
 })
-
-
-var instructor = {
-  name: "Mary"
-  classRoom: "13"
-    'has-office-hours': true
-  attitude: "attentive"
-}
 
 
 describe('Fundamentals #5', function() {
