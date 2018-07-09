@@ -6,7 +6,7 @@ var foods = ['pizza', 'pasta', 'burger']
 var last = foods[2]
 var favoriteFoods = foods
 var instructor = {name:"Yes", lastName:"Yes", age:"Yes"}
-    
+  
 
 describe('Fundamentals #1', function() {
   let section = fundamentals.slice(
