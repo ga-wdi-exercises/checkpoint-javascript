@@ -2,11 +2,19 @@ var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
 var oojs = fs.readFileSync("oojs.js","utf8")
+class  Playlist () {
+  constructor(songs, title){
+    this.songs = songs
+    this.title = title
+  }
+  addSong () {
 
+    }
+}
 
 describe('OOJS #1', function() {
   try {
-    var Playlist = require("../oojs.js").Playlist
+  var Playlist = require("../oojs.js").Playlist
   }
   catch(e) {
     console.log(e)

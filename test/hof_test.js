@@ -3,8 +3,8 @@ var expect = require("chai").expect
 var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
 var people = []
-var peopleNames = people
-var polyglotPeople = [ ]
+var peopleNames = peopl
+var polyglotPeople = []
 
 
 describe('HOF #1', function() {
