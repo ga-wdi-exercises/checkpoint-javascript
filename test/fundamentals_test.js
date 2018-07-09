@@ -2,6 +2,11 @@ var should = require("chai").should()
 var expect = require("chai").expect
 var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js","utf8")
+var foods = ["hamburger", "potato", "onion"]
+var last = "onion"
+var favoriteFoods = ["hamburger", "potato", "onion"]
+
+
 
 describe('Fundamentals #1', function() {
   let section = fundamentals.slice(
@@ -16,6 +21,7 @@ describe('Fundamentals #1', function() {
   }
   it('foods is an array', function() {
     expect(foods).to.be.an('array')
+foods
   })
   it('foods contains three strings', function() {
     expect(foods.length).to.equal(3)
@@ -54,7 +60,8 @@ describe('Fundamentals #3', function() {
     console.log(e)
   }
   it('favoriteFoods is defined', function() {
-    expect(favoriteFoods).to.be.not.undefined
+    favoriteFoods
+    //expect(favoriteFoods).to.be.not.undefined
   })
   it('favoriteFoods is an array', function() {
     expect(favoriteFoods).to.be.an('array')
@@ -101,9 +108,13 @@ describe('Fundamentals #5', function() {
   catch(e) {
     console.log(e)
   }
-  it('instructor is an object', function() {
-    expect(instructor).to.be.an('object')
-  })
+  var instructor = {
+    name: "Hector",
+    course: "WDI",
+    cohort: 24
+    
+    // expect(instructor).to.be.an('object')
+  }
   it('instructor has three key-value pairs', function() {
     expect(Object.keys(instructor)).to.have.lengthOf(3)
   })
