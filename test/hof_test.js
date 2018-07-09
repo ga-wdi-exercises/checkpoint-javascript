@@ -8,20 +8,7 @@ var people = ['john','joe','jim'];
 people.map();
 people.filter();
 var polyglotPeople = ['john','joe','jim'];
-class Playlist = {
-  constructor(title,songs){
-    this.title = [];
-    this.songs = [];
-  }
-  addSong (){
 
-  }
-}
-class myPlaylist extends Playlist {
-  constructor(){
-    
-  }
-}
 
 describe('HOF #1', function() {
   let section = hof.slice(
