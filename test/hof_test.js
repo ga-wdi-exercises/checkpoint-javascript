@@ -3,8 +3,8 @@ var expect = require("chai").expect
 var fs = require("fs")
 var hof = fs.readFileSync("hof.js","utf8")
 
-var peopleNames = ['john','joe','jim']
-var people = ['john','joe','jim']
+var peopleNames = ["Layla", "Keanu", "Jasmine"]
+var people = ["Layla", "Keanu", "Jasmine"]
 var polyglotPeople = ['Frida Khalo','Albert Einstein','Jackie Chan']
 people.map()
 people.filter()
