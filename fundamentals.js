@@ -20,6 +20,7 @@
 for (i = 0; i < foods.length < i++) {
     push.foods(favoriteFoods[i])
 }
+// Stephanie logic: I think this is saying that let's start at the beginning aka i=0 or position where index = 0 which is the beginning. So iterate through the length of foods array and increase in single increments. I think I'm then saying for this iteration, push contents of foods into the empty variable favoriteFoods. I think I'm saying this by putting this i in favoriteFoods[i]...saying continue to spit out the new value at the new index position?
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
@@ -34,3 +35,7 @@ var instructor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
+
+instructor.push(['has-office-hours': true])
+Object.addKey
+// I don't remember the syntax here. I do recognize we need to use the special method to add the key value... I think it is object.addKey("has-office-hours") and then for the property was object.addProperty(true). I remember mentioning in readMe and class that for properties it should look something like ([]) to differentiate..but .... other than that...lost
