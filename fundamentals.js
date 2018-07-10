@@ -29,8 +29,8 @@ for(i = 0; i < foods.length; i++){
 var instructor = {
     name : Jim,
     age : 100,
-    disposition: friendly;
-}
+    disposition : friendly;
+};
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
 // it (do not change the original object you typed above) and assigning it
