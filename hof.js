@@ -1,4 +1,4 @@
-// NOTE: Make sure to use the `var` keyword for ALL variable declarations
+// NOTE: Make sure to use the `var` keyword for ALL variable declarations 
 
 var people = [
   {
@@ -20,10 +20,15 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-
+var peopleNames = people.map((people) => {
+  return people.name
+})
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+var polyglotPeople = people.filter(function(speaks){
+  return speaks.knownLanguages > 1
+})
