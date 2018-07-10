@@ -20,7 +20,6 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-
 people.map
 var peopleNames = [people.name]
 
