@@ -9,7 +9,7 @@
 class Playlist {
   constructor (title, songs) {
     this.title = title
-    this.songs = songs
+    this.songs = []
   }
   addSong (song) {
     this.songs.push(song)
