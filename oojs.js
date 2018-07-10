@@ -7,8 +7,8 @@
 // Type your solution immediately below this line:
 
 Class Playlist {
-  constructor(title, songs) {
-    this.title = []
+  constructor (title, songs) {
+    this.title = title
     this.songs = []
   }
   addSong () {
@@ -20,11 +20,11 @@ Class Playlist {
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
-Class MyPlaylist extends Playlist {
-  constructor(title, songs) {
-    super(title, songs)
+Class myPlaylist extends Playlist {
+  constructor (title, songs) {
+    super (title, songs)
   }
-  addSong('song2')
+  this.addSong('song2')
 }
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
