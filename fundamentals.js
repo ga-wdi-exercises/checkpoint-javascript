@@ -38,5 +38,5 @@ var instructor = {
     name: 'bob',
     age: 20,
     favoriteColor: 'blue',
-    has-office-hours: true
+    officeHours: true
 }
