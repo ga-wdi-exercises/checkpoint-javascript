@@ -21,6 +21,15 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+var peopleNames = [" "]
+{
+for(i = 0; i < peopleName.length; i++)
+  if(people = peopleNames[i])
+  people.push(peopleNames)
+}
+
+var peopleNames = people.map(getName)
+
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
