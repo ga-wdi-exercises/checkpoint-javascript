@@ -13,6 +13,11 @@ for (i = 0; i < foods.length; i++)
   console.log(foods.last)
   }
 
+atLast () {
+  console.log(last)
+  }
+}
+
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
 
@@ -32,12 +37,12 @@ for (i = 0; i < favoriteFoods.length; i++)
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 
-var instructor [ {
+var instructor = [] {
   name: "Mary"
   attitude: "patient"
   classroom: 13
     }
-  ]
+
 
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
