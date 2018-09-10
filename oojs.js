@@ -6,15 +6,20 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
+var playlist = [
+  {
+      title: "Prince",
+      songs: "Im Yours",
+},
 
-
+// *I do not remember the correct syntax I will need to study more on this and try again on the retake.
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
-
+// *I do not remember the correct syntax I will need to study more on this and try again on the retake.
 
 
 
