@@ -21,9 +21,11 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-people.map(function() {
-  var peopleNames = [];
-  peopleNames = people.name;
+var peopleNames = [];
+
+people.map(firstName => {
+  peopleNames.push(people.name[firstName]);
+  console.log(peopleNames);
 });
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
@@ -31,4 +33,8 @@ people.map(function() {
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
-people.filter() 
+var polyglotPeople = [];
+people.filter(newPeople => {
+  polyglotPeople = people.knownLanguages[newPeople];
+}); 
+console.log(polyglotPeople);

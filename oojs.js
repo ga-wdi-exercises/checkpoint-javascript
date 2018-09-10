@@ -13,7 +13,7 @@ class Playlist {
     this.songs = [];
   }
   addSong() {
-    songs.push("Fury");
+    this.songs.push("Fury");
   }
 };
 
@@ -22,7 +22,7 @@ class Playlist {
 // Type your solution immediately below this line:
 
 var myPlaylist = new Playlist("Hello");
-addSong();
+myPlaylist.addSong();
 console.log(myPlaylist)
 
 
