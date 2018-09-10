@@ -7,7 +7,16 @@
 // Type your solution immediately below this line:
 
 
+class Playlist {
+  constructor (title) {
+    this.title = title
+    this.songs = []
+  }
 
+  addSong (str) {
+    this.songs.push(str)
+  }
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
@@ -15,7 +24,7 @@
 // Type your solution immediately below this line:
 
 
-
+var
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
