@@ -24,11 +24,11 @@ class Playlist {
 // Type your solution immediately below this line:
 
 
-var
-
+var myPlaylist = new Playlist('My Playlist')
+myPlaylist.addSong('call me maybe')
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-if(typeof Playlist !== 'undefined') {
+if (typeof Playlist !== 'undefined') {
   module.exports = {
     Playlist
   }
