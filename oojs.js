@@ -13,7 +13,6 @@ class Playlist {
     }
     addSong (song) {
       this.songs.push(song)
-      console.log(this.songs)
   }
 }
 
