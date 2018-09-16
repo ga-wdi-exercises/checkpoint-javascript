@@ -5,35 +5,35 @@ var people = [
     name: "Layla",
     age: 27,
     knownLanguages: 3
-  }, {
+  },
+  {
     name: "Keanu",
     age: 54,
     knownLanguages: 1
-  }, {
+  },
+  {
     name: "Jasmine",
     age: 35,
     knownLanguages: 2
   }
-]
+];
 
 // #1: Use the `map` array method to create a new array containing the names of each
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-var peopleNames = map.people(foo) {
-  return foo.name;
-};
+var peopleNames = people.map(names => {
+  return names.name;
+});
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
-var polyglotPeople = [];
-people.filter() {
-  if (people.knownLanguages > 1) {
-    push.polyglotPeople();
+var polyglotPeople = people.filter(multiLang => {
+  if (multiLang.knownLanguages >= 2) {
+    return multiLang.knownLanguages;
   }
-};
-
+});
