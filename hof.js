@@ -20,12 +20,13 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-
+let map1 = [] 
 
 for (i=0;i<people.length;i++){
-  map(people)
+  map1.map(people[i].name)
 }
-console.log()
+console.log(map1)
+
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.

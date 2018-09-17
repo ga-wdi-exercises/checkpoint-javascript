@@ -23,15 +23,18 @@ for (var i=0; i<foods.length; i++) {
 console.log(favoriteFoods)
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
-// instructor(){
-//     FirstName : 'Jonathan'
-//     LastName : 'Dixie'
-//     Weight : 200
-// }
-// console.log(instructor)
+var instructor = {
+    FirstName: 'Jonathan',
+    LastName: 'Dixie',
+    Weight: 200,
+}
+
 
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
+
+instructor.has-office-hours = "false"
+console.log(instructor) //?
