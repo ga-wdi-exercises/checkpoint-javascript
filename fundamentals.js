@@ -12,23 +12,25 @@ var last = foods[2]
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
-var favoriteFoods = []
 
+var favoriteFoods = []
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
-for (var i=0; i<foods.length; i++) {
-    favoriteFoods.push(foods[i])
-} 
-console.log(favoriteFoods)
-// #5: Create an object literal called `instructor` that contains three key-value pairs.
-// Type your solution immediately below this line:
-var instructor = {
-    FirstName: 'Jonathan',
-    LastName: 'Dixie',
-    Weight: 200,
+
+for (var i = 0 ; i < foods.length ; i++){
+    favoriteFoods.push(foods[i]) //?
 }
 
+// #5: Create an object literal called `instructor` that contains three key-value pairs.
+// Type your solution immediately below this line:
+//var instructor = new object ();
+
+var instructor = {
+    shoes: "black",
+    shirt: "blue",
+    color: "black"
+}
 
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
@@ -36,5 +38,4 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-instructor.has-office-hours = "false"
-console.log(instructor) //?
+instructor[`has-office-hours`] = false
