@@ -8,7 +8,7 @@
 
 //
 class Playlist {
-  constructor(title, songs = []) {
+  constructor(title, songs) {
     this.title = title;
     this.songs = [];
   }
