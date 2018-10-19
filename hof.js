@@ -23,7 +23,20 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+/// THIS WORKS
+var peopleNames2 = [];
+
+var peopleNa = people.forEach(person => {
+  peopleNames2.push(person.name);
+});
+
 var peopleNames = people.map(person => {
+  // people.forEach(person => {
+  //   peopleNames.push(person.name);
+  // });
+});
+
+var peopleNa = people.forEach(person => {
   peopleNames.push(person.name);
 });
 
@@ -32,4 +45,6 @@ var peopleNames = people.map(person => {
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
-var polyglotPeople = people.filter(person.knownLanguages > 1);
+var polyglotPeople = people.filter(person => {
+  person.knownLanguages === 1;
+});
