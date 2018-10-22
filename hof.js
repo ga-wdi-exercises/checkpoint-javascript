@@ -22,16 +22,16 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-var peopleNames = people.map(index => {
-  return people[index.name];
+var peopleNames = people.map((x) => {
+  return x.name;
 });
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
-var polyglotPeople = people.filter(dex => {
-  if (people[dex].knownLanguages < 1) {
-    return dex;
+var polyglotPeople = people.filter((x) => {
+  if (x.knownLanguages > 1) {
+    return people;
   }
 });
