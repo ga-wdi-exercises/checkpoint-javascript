@@ -6,7 +6,17 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
+var class Playlist {
+  constractor(title,){
+    songs = []
+    this.title = "title"
+  }
+  
+addsong(){
+  songs.push(string)
+}
 
+}
 
 
 
