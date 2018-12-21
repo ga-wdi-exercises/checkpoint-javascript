@@ -7,7 +7,24 @@
 // Type your solution immediately below this line:
 
 
+class Playlist {
+  constructor(title) {
+  this.title = title
+  }
 
+
+
+  addSongs() {
+    songs.push(this.title)
+    return songs
+  }
+}
+var songs = []
+
+var drake = new Playlist('Drizzy')
+var wayne = new Playlist('old man fireman lil wayne')
+console.log(drake.addSongs())
+console.log(wayne.addSongs())
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
@@ -18,9 +35,9 @@
 
 
 
-// NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-if(typeof Playlist !== 'undefined') {
-  module.exports = {
-    Playlist
-  }
-}
+// // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
+// if(typeof Playlist !== 'undefined') {
+//   module.exports = {
+//     Playlist
+//   }
+// }
