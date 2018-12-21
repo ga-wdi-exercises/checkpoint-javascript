@@ -6,7 +6,13 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
-
+class Playlist {
+  constructor (title, songs, addSong){
+    this.title = title
+    this.songs = songs
+    this.addSong = addSong
+  }
+}
 
 
 
@@ -15,7 +21,11 @@
 // Type your solution immediately below this line:
 
 
-
+class myPlaylist extends Playlist{
+  constructor(){
+    super
+  }
+}
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
