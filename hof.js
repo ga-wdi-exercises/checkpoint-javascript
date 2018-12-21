@@ -30,5 +30,3 @@ var peopleNames = people.map( (obj) => obj.name)
 var polyglotPeople = people.filter( (obj) => {
   return obj.knownLanguages > 1
 })
-
-console.log(polyglotPeople)
