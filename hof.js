@@ -27,3 +27,8 @@ var peopleNames = people.map( (obj) => obj.name)
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+var polyglotPeople = people.filter( (obj) => {
+  return obj.knownLanguages > 1
+})
+
+console.log(polyglotPeople)
