@@ -12,8 +12,8 @@ class Playlist {
   this.title = title
   this.songs = []
   }
-  addSong () {
-    this.songs.push();
+  addSong (a) {
+    this.songs.push(a);
   }
 }
 
@@ -21,7 +21,6 @@ class Playlist {
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
-
 
 var myPlaylist = new Playlist ("Javascript Jams")
 myPlayList.addSong("Back in Boolean")
