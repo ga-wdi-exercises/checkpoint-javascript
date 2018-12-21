@@ -22,6 +22,7 @@ var people = [
 // Type your solution immediately below this line:
 
 
+var peopleNames = people.map(people[0].name, people[1].name, people[2].name)
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
