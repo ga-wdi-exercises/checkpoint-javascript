@@ -8,13 +8,12 @@
 
 class Playlist {
   constructor(title) {
-    this.title = title
+    this.title = title;
+    this.songs = [];
 
   }
   addSong(string) {
-    var songs = [ ]
-    songs.push(string)
-    console.log(songs.push(string))
+   return this.songs.push(string)
   }
 }
 //add song method and empty song array is wrong. 
@@ -23,18 +22,17 @@ class Playlist {
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
-class myPlaylist extends Playlist {
-constructor(title) {
-  myPlaylist.addSong()
-}
+var myPlaylist = new Playlist('Study Playlist') 
+
+myPlaylist.addSong('Fractions')
 
 
 
 
 
-// NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-if(typeof Playlist !== 'undefined') {
-  module.exports = {
-    Playlist
+  // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
+  if (typeof Playlist !== 'undefined') {
+    module.exports = {
+      Playlist
+    }
   }
-}

@@ -14,13 +14,12 @@ console.log(foods[2])
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
 
-var favoriteFoods = [ ]
+var favoriteFoods = []
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
-for(let i = 0; i<foods.length; i++)
-{
-	favoriteFoods.push(foods[i])
+for (let i = 0; i < foods.length; i++) {
+    favoriteFoods.push(foods[i])
 }
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
@@ -39,4 +38,4 @@ var instructor = {
 
 instructor["has-office-hours"] = true;
 
-//WRONG COME BACK TO 
+//WRONG COME BACK TO
