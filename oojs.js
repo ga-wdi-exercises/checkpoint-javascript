@@ -6,13 +6,20 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
-
-
+Var playlist = [
+  title = [],
+  songs = [],
+  addSong = [],
+]
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
+
+const myPlaylist = [
+  constructor playlist.
+]
 
 
 
