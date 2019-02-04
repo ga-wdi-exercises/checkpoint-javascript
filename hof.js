@@ -35,11 +35,3 @@ var polyglotPeople = people.filter( (person) => {
     return true;
   }
 } );
-
-
-////Ignore the below
-// function polyglotFinder (person) {
-//   if (person.knownLanguages > 1) {
-//     return person;
-//   }
-// }
