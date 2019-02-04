@@ -44,4 +44,4 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-//This can't be done with dot notation, and I'm struggling to remember the other.
+instructor['has-office-hours'] = true;
