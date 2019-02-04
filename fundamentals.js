@@ -10,9 +10,7 @@ var foods = ['beef', 'chicken', 'fruit']
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
 
-function last() {
-    console.log(foods[2])
-}
+var last =foods[2]
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
@@ -23,9 +21,10 @@ var favoriteFoods = []
 // Type your solution immediately below this line:
 
 
-favoriteFoods.forEach(foods => {
-    Push.foods=favoriteFoods;
-});
+for (let i = 0; i < foods.length; i++) {
+    favoriteFoods.push = foods[i];
+    
+} 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
