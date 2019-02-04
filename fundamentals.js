@@ -9,7 +9,8 @@ var foods = ['bacon ', 'eggs ', 'yogurt '];
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
 
-//console.log(last)
+var last = foods[2]
+console.log(last)
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
@@ -21,7 +22,7 @@ console.log(foods)
 // Type your solution immediately below this line:
 for (i = 1; i < 4; i++){
     //if (foods => last){
-    favoriteFoods.push(foods);
+    favoriteFoods.push(foods + 1);
     }
 ;
 console.log(foods)
