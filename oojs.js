@@ -6,7 +6,14 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
+class var Playlist {
+  constructor( 'title', 'songs', 'addSong') {
+    title = 'KOD',
+    songs = 'Dreamville'
+    addSong = "FNL"
+  }
 
+}
 
 
 
