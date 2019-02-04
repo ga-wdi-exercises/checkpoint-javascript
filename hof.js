@@ -29,4 +29,9 @@ function grabNames(person){
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
-//var polyglotPeople = people.filter(person, people.knownLanguages > 1)
+var polyglotPeople = people.filter(grabPolyglots);
+function grabPolyglots(person){
+  if (person.knownLanguages > 1){
+    return person
+  }
+}
