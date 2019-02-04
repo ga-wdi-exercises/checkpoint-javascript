@@ -4,7 +4,7 @@
 // Type your solution immediately below this line:
 
 
-var foods = ["apples", "oranges", "pear"];
+var foods = ["apples", "oranges", "pears"];
 
 
 // #2: Access the last item in the array and assign to a variable called `last`.
@@ -25,16 +25,15 @@ var favoriteFoods = [];
 
 //???
 
-(i = 0; i < foods.length; i++) {
+for (i = 0; i < foods.length; i++) {
     
 console.log(favoriteFoods(foods[i]))
-
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 
-var Instructor = {
+var Instructor {
 
     intelligence: "smart",
     patience: "yes",
@@ -48,3 +47,7 @@ var Instructor = {
 // Type your solution immediately below this line:
 
 Instructor.shift(`has-office-hours` + `instructor`) 
+
+//switch???
+//
+
