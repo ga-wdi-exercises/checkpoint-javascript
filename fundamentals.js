@@ -2,22 +2,30 @@
 
 // #1: Create an array of strings called `foods` that contains three foods.
 // Type your solution immediately below this line:
+var foods = ['bacon ', 'eggs ', 'yogurt '];
 
 
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
 
-
+//console.log(last)
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
-
+var favoriteFoods = [];
+console.log(foods)
 
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
-
+for (i = 1; i < 4; i++){
+    //if (foods => last){
+    favoriteFoods.push(foods);
+    }
+;
+console.log(foods)
+console.log(favoriteFoods)
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
