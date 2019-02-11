@@ -36,8 +36,4 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-// var has-office-hours
-
-// function instructor(){
-//     instructor.push()
-// }
+instructor["has-office-hours"] = true;
