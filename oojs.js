@@ -9,10 +9,11 @@
 class Playlist {
  constructor(title){
   this.title = title
+  
   songs = []
  }
   addSong(){
-     songs.push("name")
+     songs.push(this.title)
   }
 }
 
@@ -25,8 +26,13 @@ class Playlist {
 
 
 class Playlist {
-  var myPlaylist
+  
+  addSong() {
+
+  }
+  
 }
+var myPlaylist = new Plalylist(song)
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
