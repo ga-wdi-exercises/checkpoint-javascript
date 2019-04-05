@@ -7,7 +7,14 @@
 // Type your solution immediately below this line:
 
 
+class Playlist {
+  constructor(title, songs, addsong) {
+    this.title = title,
+    this.song =song,
+    this.addsong = addsong
+  }
 
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
