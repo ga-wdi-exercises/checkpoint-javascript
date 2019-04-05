@@ -3,7 +3,7 @@
 // #1: Create an array of strings called `foods` that contains three foods.
 // Type your solution immediately below this line:
 
-var foods = [chicken, fish, beef]
+var foods = ["chicken", "fish", "beef"]
 
 
 // #2: Access the last item in the array and assign to a variable called `last`.
