@@ -23,7 +23,7 @@ class Playlist {
 // Type your solution immediately below this line:
 
 
-var myPlayList = new PLaylist(adSong("californiacation"))
+// var myPlayList = new PLaylist(adSong("californiacation"))
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
