@@ -20,6 +20,8 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
+var peopleNames = people.map((name) => name.name);
+// console.log(peopleNames)
 
 
 
@@ -27,3 +29,10 @@ var people = [
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+var polyglotPeople = people.filter((knows) => {
+  if(knows.knownLanguages > 1){
+    return knows;
+  }
+});
+// console.log(polyglotPeople)
