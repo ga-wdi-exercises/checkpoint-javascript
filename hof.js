@@ -21,8 +21,8 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-const peopleNames = people.map(name)
-console.log(name)
+const peopleNames = name.map()
+console.log(peopleName)
 
 
 
@@ -30,3 +30,5 @@ console.log(name)
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+const polyglotPeople = languages.filter()
+console.log(polygotPeople)
