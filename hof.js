@@ -38,20 +38,20 @@ console.log(peopleNames)
 // Type your solution immediately below this line:
 
 
-var polyglotPeople = people.filter(woof => woof.name)
-  if (polyglotPeople.knownLanguages>1) {
-    return polyglotPeople.name
+var polyglotPeople = people.filter(function(multiLan) {
+  if (multiLan.knownLanguages>1) {
+    return multiLan.name
   }
-
+})
 
 console.log(polyglotPeople)
 
 
-const Alpha = list1.filter (name => name.state.includes('MI')).map((name) => name.firstName)
+// const Alpha = list1.filter (name => name.state.includes('MI')).map((name) => name.firstName)
 
-if (Alpha.length>=1) {
-  console.log(true)
-}
-else {
-  console.log(false)
-}
+// if (Alpha.length>=1) {
+//   console.log(true)
+// }
+// else {
+//   console.log(false)
+// }
