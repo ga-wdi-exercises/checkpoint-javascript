@@ -31,4 +31,4 @@ var peopleNames = people.map(function(person) {
 // Type your solution immediately below this line:
 var polyglotPeople = []
 var polyglotPeople = people.filter(person => person.knownLanguages >=2)
-  return polyglotPeople
+  return polyglotPeople.push()
