@@ -22,8 +22,36 @@ var people = [
 // Type your solution immediately below this line:
 
 
+var peopleNames = people.map(function (populate) {
+  return populate.name
+})
+
+console.log(peopleNames)
+
+
+
+
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+
+var polyglotPeople = people.filter(woof => woof.name)
+  if (polyglotPeople.knownLanguages>1) {
+    return polyglotPeople.name
+  }
+
+
+console.log(polyglotPeople)
+
+
+const Alpha = list1.filter (name => name.state.includes('MI')).map((name) => name.firstName)
+
+if (Alpha.length>=1) {
+  console.log(true)
+}
+else {
+  console.log(false)
+}
