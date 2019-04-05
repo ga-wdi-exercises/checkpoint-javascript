@@ -7,8 +7,10 @@
 // Type your solution immediately below this line:
 
 class Playlist {
-  title = title
+ constructor(title){
+  this.title = title
   songs = []
+ }
   addSong(){
      songs.push("name")
   }
@@ -22,7 +24,9 @@ class Playlist {
 
 
 
-
+class Playlist {
+  var myPlaylist
+}
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
