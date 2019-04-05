@@ -21,6 +21,9 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+const peopleNames = people.map(name)
+console.log(name)
+
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
