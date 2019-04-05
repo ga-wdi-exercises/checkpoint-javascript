@@ -19,7 +19,7 @@ var favoriteFoods = []
 // Type your solution immediately below this line:
 
 for(i = 0; i < foods.length; i++){
-    return favoriteFoods.push(foods[i])
+    favoriteFoods.push(foods[i])
 }
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
@@ -35,3 +35,4 @@ var instructor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
+
