@@ -37,4 +37,4 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-instructor.[has-office-hours] = "has office hours"
+instructor[has-office-hours] = "has office hours"
