@@ -11,13 +11,15 @@ class Playlist {
     this.title = title
     this.songs = []
   }
-  addSongs(ph){
-    ph = this.songs.push(ph)
+  addSong(ph){
+    var newSong = this.songs.push(ph)
+    return newSong;
   }
 }
 
-var albums = new Playlist('my Life')
-console.log(albums.title)
+var myPlaylist = new Playlist('my Life')
+myPlaylist.addSong('7 years old')
+console.log(myPlaylist)
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
