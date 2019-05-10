@@ -21,6 +21,14 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+var array = []
+function retunArray() {
+  var peopleNames = people.map
+  return peopleNames
+} 
+array.push(people)
+
+console.log(array)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
