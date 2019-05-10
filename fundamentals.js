@@ -36,4 +36,4 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-instructor.has-office-hours = true;
+instructor["has-office-hours"] = true;
