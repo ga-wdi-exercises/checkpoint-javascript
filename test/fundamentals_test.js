@@ -3,7 +3,6 @@ var expect = require("chai").expect
 var fs = require("fs")
 var fundamentals = fs.readFileSync("fundamentals.js", "utf8")
 
-
 describe('Fundamentals #1', function() {
     let section = fundamentals.slice(
         fundamentals.indexOf('// #1'),
@@ -58,7 +57,7 @@ describe('Fundamentals #3', function() {
         expect(favoriteFoods).to.be.an('array')
     })
 })
-var favoriteFoods = foods
+
 describe('Fundamentals #4', function() {
     let section =
         fundamentals.slice(
@@ -106,8 +105,6 @@ describe('Fundamentals #5', function() {
         expect(instructor).to.not.have.any.keys('has-office-hours')
     })
 })
-
-
 
 describe('Fundamentals #6', function() {
     let section = fundamentals.slice(
