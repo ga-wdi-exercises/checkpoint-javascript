@@ -19,7 +19,7 @@ var people = peoplesNames.map(function(name) {
     return name
 })
 
-var polyglotPeople = peoplesNames.filter(name => name)
+var polyglotPeople = people.filter(name => name.language >= 2)
 var class Playlist {
     constructor(title, song) {
         this.title = title
@@ -29,3 +29,5 @@ var class Playlist {
 
     }
 }
+
+var myPlaylist = new Playlist('Dragula', 'White Zombie')
