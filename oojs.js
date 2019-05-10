@@ -27,5 +27,5 @@ if (typeof Playlist !== "undefined") {
   };
 }
 
-var myPlaylist = new Playlist(myPlaylist);
+var myPlaylist = new Playlist("myPlaylist");
 myPlaylist.addSong("Danger Zone");
