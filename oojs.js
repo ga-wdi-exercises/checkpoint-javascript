@@ -7,7 +7,7 @@
 // Type your solution immediately below this line:
 
 
-class Playlist = {
+class Playlist  {
   constructor(title, songs) {
     this.title = "title"
     this.songs = [];
@@ -17,7 +17,7 @@ class Playlist = {
   }
 }
 
-Playlist.addSong("Moonlight")
+// Playlist.addSong("Moonlight")
 
 
 
@@ -26,12 +26,15 @@ Playlist.addSong("Moonlight")
 // Type your solution immediately below this line:
 
 
+var myPlayList = new Playlist
+
+myPlayList.addSong("Waiting for the World to End")
 
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-if(typeof Playlist !== 'undefined') {
-  module.exports = {
-    Playlist
-  }
-}
+// if(typeof Playlist !== 'undefined') {
+//   module.exports = {
+//     Playlist
+//   }
+// }

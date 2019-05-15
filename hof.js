@@ -23,7 +23,7 @@ var people = [
 
 const peopleNames = people.map(peopleNames => peopleNames.name)
 
-console.log(peopleNames);
+// console.log(peopleNames);
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
@@ -32,4 +32,4 @@ console.log(peopleNames);
 
 const polyGlotPeople = people.filter(polyGlotPeople => polyGlotPeople.knownLanguages > 1)
 
-console.log(polyGlotPeople);
+// console.log(polyGlotPeople);
