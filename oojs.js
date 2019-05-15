@@ -7,15 +7,15 @@
 // Type your solution immediately below this line:
 
 
-class Playlist  {
-  constructor(title, songs) {
-    this.title = "title"
-    this.songs = [];
+  class Playlist {
+    constructor(title, songs) {
+      this.title = title
+      this.songs = [];
+    }
+    addSong(add) {
+      this.songs.push(add)
+    }
   }
-  addSong(add) {
-    this.songs.push(add)
-  }
-}
 
 // Playlist.addSong("Moonlight")
 
@@ -26,7 +26,7 @@ class Playlist  {
 // Type your solution immediately below this line:
 
 
-var myPlayList = new Playlist
+var myPlayList = new Playlist("aPlaylist", "song one")
 
 myPlayList.addSong("Waiting for the World to End")
 
