@@ -44,4 +44,3 @@ subject: "java"
 
 instructor["has-office-hours"] = true 
 
-console.log(instructor);
