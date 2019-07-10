@@ -21,7 +21,7 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-people.map(function(person){
+var peopleNames =  people.map(function(person){
   return person.name
 })
 

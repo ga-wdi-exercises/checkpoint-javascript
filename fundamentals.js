@@ -26,8 +26,8 @@ for(var i = 0; i < foods.length; i++){
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 
-var instructor = {
-    name: Zakk,
+    var instructor = {
+    name: 'Zakk',
     age: 29,
     favoriteFood: 'pizza'
 }
