@@ -8,7 +8,7 @@ var foods = ["peanuts", "apples", "kale"]
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
 
-foods[3] = 'last'
+var last = foods[3]
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
@@ -19,14 +19,14 @@ var favoriteFoods = []
 // Type your solution immediately below this line:
 
 for (i = 0; i < foods.length; i++) {
-    favoriteFoods.push(foods)
+    favoriteFoods.push(foods[i])
 }
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 
 var instructor = {
-    key: 'value',
+    key1: 'value1',
     key2: 'value2',
     key3: 'value3'
 }
@@ -36,4 +36,5 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-instructor.[has-office-hours] = Boolean
+
+instructor['has-office-hours'] = true
