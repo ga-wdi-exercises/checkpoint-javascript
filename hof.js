@@ -32,3 +32,4 @@ var peopleNames = people.map(names => {
 var polyglotPeople = people.filter(list => {
   return list.knownLanguages > 1;
 });
+//npm
