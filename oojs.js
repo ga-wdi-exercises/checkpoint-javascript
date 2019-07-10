@@ -12,7 +12,7 @@ class Playlist {
     this.songs = []
   }
   
-  var songs = [];
+  // var songs = [];
 
   addSong(song) {
     var addSongToArray = song.push(songs)
