@@ -7,26 +7,23 @@
 // Type your solution immediately below this line:
 
 class Playlist {
-  constructor(title, songs) {
+  constructor(title) {
     this.title = title
-    this.songs = songs
+    this.songs = []
   }
   
-  var songs = []
+  var songs = [];
 
   addSong(song) {
     var addSongToArray = song.push(songs)
   }
-}
-
-
+};
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
 const myPlaylist = new Playlist('Random Title')
-
 addSong('Random Song')
 
 

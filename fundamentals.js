@@ -26,9 +26,9 @@ for (i = 0; i < foods.length; i++) {
 // Type your solution immediately below this line:
 
 var instructor = {
-    key1: 'value1',
-    key2: 'value2',
-    key3: 'value3'
+    name: 'Stacy',
+    subject: 'Chemistry',
+    rating: '5/5'
 }
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing

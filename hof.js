@@ -22,7 +22,7 @@ var people = [
 // Type your solution immediately below this line:
 
 var peopleNames = []
-var push = people.map(people.name).push(peopleNames)
+var push = people.map(peopleNames)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
@@ -32,7 +32,7 @@ var push = people.map(people.name).push(peopleNames)
 
 var polyglotPeople = []
 
-if(knownLanguages >= 3) {
+if(knownLanguages > 2) {
   var filter = people.filter().push(polyglotPeople)
 }
 
