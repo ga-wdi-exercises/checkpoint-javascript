@@ -6,10 +6,10 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
-class Playlist = {
-  constructor(title, songs){
+class Playlist {
+  constructor(title){
     this.title = title;
-    songs = []
+    this.songs = []
   }
   addSong(str){
     this.songs.push(str);
