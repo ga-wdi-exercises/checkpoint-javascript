@@ -22,6 +22,10 @@ var people = [
 // Type your solution immediately below this line:
 
 
+var newArray = people.map((num=>
+
+return newArray
+)
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
