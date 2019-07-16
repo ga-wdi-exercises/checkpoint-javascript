@@ -19,11 +19,11 @@ var favoriteFoods = [];
 // Type your solution immediately below this line:
 
 // var i = foods.length;
-// for (var i = 0; i >= foods.length; i--) {
-// 	favoriteFoods.push(favoriteFoods)
-// }
-
-foods.push(favoriteFoods)
+for (var i = 0; i < foods.length; i++) {
+	favoriteFoods.push(foods[i])
+}
+console.log(favoriteFoods)
+// foods.push(favoriteFoods)
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
