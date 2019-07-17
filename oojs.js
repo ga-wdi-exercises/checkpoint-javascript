@@ -9,11 +9,16 @@
 class Playlist{
 	constructor(title){
 		this.title = title;
-		song = [];
+		this.song = [];
+	
+	}
+	addSong(){
+		this.song.push("I am beautiful")
 	}
 }
 
-Playlist.addSong("I am beautiful")
+
+
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
