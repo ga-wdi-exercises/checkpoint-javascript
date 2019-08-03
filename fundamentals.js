@@ -17,16 +17,16 @@ var favoriteFoods = []
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
-for(var i = 0; i < foods[i].length; i++) {
-	return favoriteFoods[foods[i]]
+for(var i = 0; i < foods.length; i++) {
+	favoriteFoods.push([foods[i]])
 }
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 var instructor = {
-	name: "zakk"
-	age: 28
+	name: "zakk",
+	age: 28,
 	cohort: "sei31"
 }
 
@@ -35,11 +35,5 @@ var instructor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
- var instructor = {
-	name: "zakk"
-	age: 28
-	cohort: "sei31"
-	has-office-hours: true  
-} 
-
+instructor['has-office-hours'] = true;
 
