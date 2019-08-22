@@ -7,13 +7,18 @@
 // Type your solution immediately below this line:
 
 
-
-
+Playlist = (title, songs) {
+this.title = "best";
+this.songs = [];
+this.addSongs = songs.push(jazz)
+}
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
+var myPlaylist = Playlist()
+addsongs = Playlist.push()
 
 
 
