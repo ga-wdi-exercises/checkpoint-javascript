@@ -24,11 +24,11 @@ var people = [
 var peopleNames = [];
 
 people.map(function() { 
-  for (i =[]; i < people.length; i+=)
-  return people[i].name
+  return peopleNames.push(`${people.name}`)
 })
 
 console.log(peopleNames)
+
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
