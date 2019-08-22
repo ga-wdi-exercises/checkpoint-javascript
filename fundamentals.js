@@ -5,8 +5,29 @@
 
 
 
+var foods = ["apple","orange","potato"];
+
+
+
+
+
+
+
+
+
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
+
+
+
+
+
+var last =foods[2];
+
+
+
+
+
 
 
 
@@ -15,8 +36,26 @@
 
 
 
+var favoriteFoods = [];
+
+
+
+
+
+
+
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
+
+
+
+
+for(i=0; i<foods.length; i++) {
+var favoriteFoods=foods.slice(0,3);
+};
+
+console.log(favoriteFoods);
+
 
 
 
@@ -24,8 +63,25 @@
 // Type your solution immediately below this line:
 
 
+var instructor = {
+    One: 'Hammad',
+    Two: "John",
+    Three: "Google"
+};
+
+
+
+
+
+
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
+
+instructor["has-office-hours"] = 1 === 1;
+console.log(instructor);
+
+
+

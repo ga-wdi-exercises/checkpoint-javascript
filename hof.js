@@ -21,9 +21,27 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+function huh(people) {
+  var x = people.name
+  return x;
+}
+
+var peopleNames = people.map(huh)
+
+console.log(peopleNames);
+
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+
+function hey(people) {
+  var y = people.knownLanguages
+  return y > 1;
+}
+
+var polyglotPeople = people.filter(hey);
+console.log(polyglotPeople);
