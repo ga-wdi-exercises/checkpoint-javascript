@@ -3,44 +3,61 @@
 // #1: Create an array of strings called `foods` that contains three foods.
 // Type your solution immediately below this line:
 
-var foods =['egg','bacon','cheese']
+var foods = ['egg', 'bacon', 'cheese']
 
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
 
-var foods = ['egg','bacon','cheese']
+var foods = ['egg', 'bacon', 'cheese']
 
-function () {
-	var last = 
-}
+
+var last = foods.slice(-1)[0]
 
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
-var favoriteFoods = []
+var favoriteFoods = [' ']
 
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 
-var foods =['egg','bacon','cheese']
+// var foods = ['egg', 'bacon', 'cheese']
 
-var favoriteFoods = []
+// let favoriteFoods = []
 
+// for (var i = 0; i < foods.length; i++) {
 
-for(var x = 0, x<.foods.length; x++){
+// 	favoriteFoods.push(foods[i])
 
-	favoritefoods.push(console.log(foods[x]))
+// }
+
+var foods = ['egg', 'bacon', 'cheese']
+
+let favoriteFoods = []
+
+for (var i = 0; i < foods.length; i++) {
+
+	favoriteFoods.push(foods[i])
+
+  if(favoriteFoods === foods){
+   favoriteFoods;
+  }
+
 }
+
+console.log(favoriteFoods)
+
+console.log(favoriteFoods)
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 
-var instructor = { 
-	subject: "subject", 
+var instructor = {
+	subject: "subject",
 	time: "time",
-	day:"day"
+	day: "day"
 }
 
 
@@ -48,8 +65,9 @@ var instructor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
-var instructor = { 
-	subject: "subject", 
+var instructor = {
+	subject: "subject",
 	time: "time",
-	day:"day"
+	day: "day",
+	'has-office-hours': true
 }
