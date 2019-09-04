@@ -8,24 +8,25 @@
 class Playlist {
 	constructor(title, songs) {
 		this.title = title;
-		this.songs = ['']
+		this.songs = []
 
 	}
 
-	addSong() {
+	addSong(songs) {
 
-		console.log('One mic')
+	var addSong = this.songs.push(songs)
+	return addSong
 
 	}
 }
-
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
-var myPlaylist = new Playlist
+var myPlaylist = new Playlist("Random song")
 myPlaylist.addSong('break ya neck')
+console.log(myPlaylist)
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
