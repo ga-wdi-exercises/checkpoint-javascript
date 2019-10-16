@@ -20,7 +20,7 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-var peopleNames = people.map(val=>val.name);
+var  peopleNames = people.map(val=>val.name);
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
