@@ -6,7 +6,15 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
-
+class Playlist {
+  constructor (titleString) {
+    this.title = titleString;
+  }
+  songs = [];
+  addSong() {
+    this.songs.push("A Day in Damascus")
+  }
+}
 
 
 
@@ -14,7 +22,9 @@
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
+var myPlaylist = new Playlist ('Hello World');
 
+myPlaylist.addSong();
 
 
 
