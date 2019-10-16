@@ -7,7 +7,9 @@
 // Type your solution immediately below this line:
 
 
-
+class Playlist {
+  
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
