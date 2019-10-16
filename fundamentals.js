@@ -23,7 +23,7 @@ var favoriteFoods = [];
 for (let i = 0; i <= foods.length;i++){
     favoriteFoods[i];
 }
-favoriteFoods=['pizza','pie','bread']
+// favoriteFoods=['pizza','pie','bread']
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
