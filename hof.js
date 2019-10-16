@@ -22,7 +22,7 @@ var people = [
 // Type your solution immediately below this line:
 var peopleNames = people.map(() => {
   for(let i = 0; i < people.length; i++) {
-    this[i] = people[i].name;
+    peopleNames[i] = people[i].name;
   }
 }); //i dont know how to use this one without documentation
 
@@ -34,7 +34,7 @@ var peopleNames = people.map(() => {
 var polyglotPeople = people.filter(() => {
   for(let i = 0; i < people.length; i++) {
     if(people[i].knownLanguages > 1) {
-      this[i] = people[i];
+      peopleNames[i] = people[i];
     }
   }
 }); //same with this one
