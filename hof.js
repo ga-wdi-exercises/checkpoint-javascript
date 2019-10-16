@@ -22,6 +22,7 @@ var people = [
 // Type your solution immediately below this line:
 
 var peopleNames = people.map(function(name){
+  console.log(peopleNames);
 });
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
@@ -29,4 +30,5 @@ var peopleNames = people.map(function(name){
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
-var polyglotPeople
+var polyglotPeople = people.filter => people.knownLanguages > 1;
+console.log(polyglotPeople);

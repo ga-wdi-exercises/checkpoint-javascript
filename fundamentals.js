@@ -18,17 +18,18 @@ var favoriteFoods = [];
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 for(var i = 0; i < foods.length; i++){
-	foods.push(favoriteFoods);
+	favoriteFoods.push();
 }
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
- const instructor = {
+ 
+ var instructor = {
  	name: "Zakk",
  	occupation: "Software Engineer",
- 	pets: "Dog"
- 	};
+ 	pets: 1
+ 	}
  	
 
 

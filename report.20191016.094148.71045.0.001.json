@@ -1,0 +1,589 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191016.094148.71045.0.001.json",
+    "dumpEventTime": "2019-10-16T09:41:48Z",
+    "dumpEventTimeStamp": "1571233308132",
+    "processId": 71045,
+    "cwd": "/Users/dallalin2/sei/lessons/checkpoint-javascript",
+    "commandLine": [
+      "node",
+      "node_modules/.bin/mocha"
+    ],
+    "nodejsVersion": "v12.10.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "12.10.0",
+      "v8": "7.6.303.29-node.16",
+      "uv": "1.31.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "19.0.0",
+    "osVersion": "Darwin Kernel Version 19.0.0: Wed Sep 25 20:18:50 PDT 2019; root:xnu-6153.11.26~2/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz",
+        "speed": 1600,
+        "user": 27552690,
+        "nice": 0,
+        "sys": 15109930,
+        "idle": 180717220,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz",
+        "speed": 1600,
+        "user": 9454100,
+        "nice": 0,
+        "sys": 5895850,
+        "idle": 208006560,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz",
+        "speed": 1600,
+        "user": 27164960,
+        "nice": 0,
+        "sys": 12224850,
+        "idle": 183967770,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz",
+        "speed": 1600,
+        "user": 7770060,
+        "nice": 0,
+        "sys": 4495920,
+        "idle": 211090460,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en3",
+        "internal": false,
+        "mac": "ac:de:48:00:11:22",
+        "address": "fe80::aede:48ff:fe00:1122",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "38:f9:d3:4a:8e:2e",
+        "address": "fe80::1476:ca3a:9268:5a79",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "38:f9:d3:4a:8e:2e",
+        "address": "10.66.226.99",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "6e:20:6a:2f:a7:56",
+        "address": "fe80::6c20:6aff:fe2f:a756",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "llw0",
+        "internal": false,
+        "mac": "6e:20:6a:2f:a7:56",
+        "address": "fe80::6c20:6aff:fe2f:a756",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::7829:18ae:4e49:8440",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::2eea:1da4:549c:7d40",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "utun2",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1006:be5d:a65a:302a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 15
+      },
+      {
+        "name": "utun3",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::806d:3088:287e:81d6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      }
+    ],
+    "host": "Dallass-MacBook-Air.local"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00000001001461d0",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000100078d95",
+      "symbol": "node::OnFatalError(char const*, char const*) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010016e8d7",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010016e873",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f2605",
+      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001002c7501",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller(v8::internal::RootIndex, int, v8::internal::Object, v8::internal::AllocationType) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010042f78a",
+      "symbol": "v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedObjectElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)2> >::ConvertElementsWithCapacity(v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::FixedArrayBase>, v8::internal::ElementsKind, unsigned int, unsigned int, unsigned int, int) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x000000010042df61",
+      "symbol": "v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedObjectElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)2> >::GrowCapacity(v8::internal::Handle<v8::internal::JSObject>, unsigned int) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001005c3d6b",
+      "symbol": "v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    },
+    {
+      "pc": "0x00000001009288f9",
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2978381824,
+    "totalCommittedMemory": 2949829232,
+    "usedMemory": 2942255776,
+    "availableMemory": 17261256,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 31744,
+        "capacity": 261832,
+        "used": 31432,
+        "available": 230400
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 5825520,
+        "capacity": 16757248,
+        "used": 0,
+        "available": 16757248
+      },
+      "old_space": {
+        "memorySize": 6926336,
+        "committedMemory": 6672256,
+        "capacity": 5569560,
+        "used": 5295952,
+        "available": 273608
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 248384,
+        "capacity": 228544,
+        "used": 228544,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 790528,
+        "committedMemory": 628928,
+        "capacity": 370400,
+        "used": 370400,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1954652160,
+        "committedMemory": 1954652160,
+        "capacity": 1954609064,
+        "used": 1954609064,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 981721088,
+        "committedMemory": 981721088,
+        "capacity": 981716928,
+        "used": 981716928,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 67.7289,
+    "kernelCpuSeconds": 0.985712,
+    "cpuConsumptionPercent": 98.1637,
+    "maxRss": 3042485207040,
+    "pageFaults": {
+      "IORequired": 27,
+      "IONotRequired": 728645
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "npm_config_save_dev": "",
+    "npm_config_legacy_bundling": "",
+    "npm_config_dry_run": "",
+    "npm_config_viewer": "man",
+    "npm_config_only": "",
+    "npm_config_commit_hooks": "true",
+    "npm_config_browser": "",
+    "npm_package_gitHead": "f431c64a80eb5de32e406f3602656d4cbfc64cad",
+    "npm_package_dependencies_mocha": "^6.2.1",
+    "npm_config_also": "",
+    "__GIT_PROMPT_IGNORE_STASH": "",
+    "npm_config_sign_git_commit": "",
+    "npm_config_rollback": "true",
+    "TERM_PROGRAM": "Apple_Terminal",
+    "NODE": "/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node",
+    "npm_config_usage": "",
+    "npm_config_audit": "true",
+    "INIT_CWD": "/Users/dallalin2/sei/lessons/checkpoint-javascript",
+    "npm_package_homepage": "https://github.com/ga-wdi-exercises/checkpoint-javascript#readme",
+    "NVM_CD_FLAGS": "",
+    "npm_config_globalignorefile": "/Users/dallalin2/.nvm/versions/node/v12.10.0/etc/npmignore",
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash",
+    "npm_config_shell": "/bin/bash",
+    "npm_config_maxsockets": "50",
+    "npm_config_init_author_url": "",
+    "npm_config_shrinkwrap": "true",
+    "npm_config_parseable": "",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "TMPDIR": "/var/folders/z4/404g6vb50l99ny04r6jj0gt80000gn/T/",
+    "npm_config_timing": "",
+    "npm_config_init_license": "ISC",
+    "npm_config_if_present": "",
+    "TERM_PROGRAM_VERSION": "433",
+    "npm_config_sign_git_tag": "",
+    "npm_config_init_author_email": "",
+    "npm_config_cache_max": "Infinity",
+    "npm_config_preid": "",
+    "npm_config_long": "",
+    "npm_config_local_address": "",
+    "npm_config_git_tag_version": "true",
+    "npm_config_cert": "",
+    "npm_package_directories_test": "test",
+    "TERM_SESSION_ID": "2561E699-BC8C-4973-8A62-1011F854E978",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_noproxy": "",
+    "npm_config_fetch_retries": "2",
+    "npm_package_repository_url": "git+https://github.com/ga-wdi-exercises/checkpoint-javascript.git",
+    "__GIT_PROMPT_SHOW_UPSTREAM": "",
+    "npm_config_versions": "",
+    "npm_config_message": "%s",
+    "npm_config_key": "",
+    "npm_package_readmeFilename": "readme.md",
+    "npm_package_description": "## Before You Start",
+    "USER": "dallalin2",
+    "NVM_DIR": "/Users/dallalin2/.nvm",
+    "__GIT_PROMPT_SHOW_UNTRACKED_FILES": "all",
+    "npm_package_license": "ISC",
+    "npm_config_globalconfig": "/Users/dallalin2/.nvm/versions/node/v12.10.0/etc/npmrc",
+    "npm_config_prefer_online": "",
+    "npm_config_logs_max": "10",
+    "npm_config_always_auth": "",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.u2mYW6FH2W/Listeners",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
+    "npm_execpath": "/Users/dallalin2/.nvm/versions/node/v12.10.0/lib/node_modules/npm/bin/npm-cli.js",
+    "npm_config_global_style": "",
+    "npm_config_cache_lock_retries": "10",
+    "BASH_SILENCE_DEPRECATION_WARNING": "1",
+    "npm_config_update_notifier": "true",
+    "npm_config_cafile": "",
+    "npm_config_heading": "npm",
+    "npm_config_audit_level": "low",
+    "npm_config_searchlimit": "20",
+    "npm_config_read_only": "",
+    "npm_config_offline": "",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "npm_config_json": "",
+    "npm_config_access": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"test\"],\"original\":[\"test\"]}",
+    "PATH": "/Users/dallalin2/.nvm/versions/node/v12.10.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/dallalin2/sei/lessons/checkpoint-javascript/node_modules/.bin:/Users/dallalin2/.pyenv/shims:/Users/dallalin2/.nvm/versions/node/v12.10.0/bin:/usr/local/bin:/Users/dallalin2/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Applications/Postgres.app/Contents/Versions/latest/bin",
+    "npm_config_allow_same_version": "",
+    "npm_config_https_proxy": "",
+    "npm_config_engine_strict": "",
+    "npm_config_description": "true",
+    "_": "/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node",
+    "npm_config_userconfig": "/Users/dallalin2/.npmrc",
+    "npm_config_init_module": "/Users/dallalin2/.npm-init.js",
+    "npm_package_author": "",
+    "npm_config_cidr": "",
+    "PWD": "/Users/dallalin2/sei/lessons/checkpoint-javascript",
+    "npm_config_user": "501",
+    "npm_config_node_version": "12.10.0",
+    "npm_package_bugs_url": "https://github.com/ga-wdi-exercises/checkpoint-javascript/issues",
+    "npm_lifecycle_event": "test",
+    "npm_config_save": "true",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_editor": "vi",
+    "npm_config_auth_type": "legacy",
+    "npm_package_repository_type": "git",
+    "npm_package_name": "checkpoint-javascript",
+    "LANG": "en_US.UTF-8",
+    "npm_config_tag": "latest",
+    "npm_config_script_shell": "",
+    "npm_config_progress": "true",
+    "npm_config_global": "",
+    "npm_config_before": "",
+    "npm_package_dependencies_chai": "^4.1.2",
+    "npm_config_searchstaleness": "900",
+    "npm_config_optional": "true",
+    "npm_config_ham_it_up": "",
+    "XPC_FLAGS": "0x0",
+    "npm_config_save_prod": "",
+    "npm_config_force": "",
+    "npm_config_bin_links": "true",
+    "npm_config_searchopts": "",
+    "npm_config_node_gyp": "/Users/dallalin2/.nvm/versions/node/v12.10.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "npm_config_depth": "Infinity",
+    "npm_package_main": "fundamentals.js",
+    "npm_config_sso_poll_frequency": "500",
+    "npm_config_rebuild_bundle": "true",
+    "npm_package_version": "1.0.0",
+    "XPC_SERVICE_NAME": "0",
+    "npm_config_unicode": "true",
+    "HOME": "/Users/dallalin2",
+    "SHLVL": "2",
+    "PYENV_SHELL": "bash",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_package_scripts_test": "node node_modules/.bin/mocha",
+    "npm_config_tag_version_prefix": "v",
+    "npm_config_strict_ssl": "true",
+    "npm_config_sso_type": "oauth",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "npm_config_save_prefix": "^",
+    "npm_config_loglevel": "notice",
+    "npm_config_ca": "",
+    "GIT_BRANCH": "master",
+    "npm_config_save_exact": "",
+    "npm_config_group": "20",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_dev": "",
+    "__GIT_PROMPT_SHOW_CHANGED_FILES_COUNT": "1",
+    "npm_config_version": "",
+    "npm_config_prefer_offline": "",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_otp": "",
+    "npm_config_cache_min": "10",
+    "__GIT_PROMPT_IGNORE_SUBMODULES": "",
+    "npm_config_searchexclude": "",
+    "npm_config_cache": "/Users/dallalin2/.npm",
+    "LOGNAME": "dallalin2",
+    "npm_lifecycle_script": "node node_modules/.bin/mocha",
+    "npm_config_color": "true",
+    "npm_config_proxy": "",
+    "npm_config_package_lock": "true",
+    "npm_config_package_lock_only": "",
+    "npm_config_save_optional": "",
+    "NVM_BIN": "/Users/dallalin2/.nvm/versions/node/v12.10.0/bin",
+    "npm_config_ignore_scripts": "",
+    "npm_config_user_agent": "npm/6.10.3 node/v12.10.0 darwin x64",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_config_production": "",
+    "npm_config_send_metrics": "",
+    "npm_config_save_bundle": "",
+    "npm_config_umask": "0022",
+    "npm_config_node_options": "",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_init_author_name": "",
+    "npm_config_git": "git",
+    "npm_config_scope": "",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_tmp": "/var/folders/z4/404g6vb50l99ny04r6jj0gt80000gn/T",
+    "npm_config_onload_script": "",
+    "npm_node_execpath": "/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node",
+    "npm_config_prefix": "/Users/dallalin2/.nvm/versions/node/v12.10.0",
+    "npm_config_link": ""
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 10240,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 67104768
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 1392,
+      "hard": 2088
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/Users/dallalin2/.nvm/versions/node/v12.10.0/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libfakelink.dylib",
+    "/usr/lib/libDiagnosticMessagesClient.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/liblaunch.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_featureflags.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib"
+  ]
+}
