@@ -25,7 +25,7 @@ class Playlist {
 
 
 var myPlaylist = new Playlist("Nevermind");
-myPlaylist.addSong("Smells Like Teen Spirit")
+myPlaylist.addSong("Smells Like Teen Spirit");
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
