@@ -24,7 +24,8 @@ class Playlist {
 // Type your solution immediately below this line:
 
 
-
+var myPlaylist = new Playlist("Nevermind");
+myPlaylist.addSong("Smells Like Teen Spirit")
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
