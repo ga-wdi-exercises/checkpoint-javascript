@@ -43,4 +43,4 @@ console.log(instructor)
 // a boolean value.
 // Type your solution immediately below this line:
 
-instructor[addEve]
+instructor.addProperty.(has-office-hours : true);

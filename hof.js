@@ -21,7 +21,7 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
-peopleNames.map(people.name);
+people.name.map(peopleNames);
 
 var peopleNames = [];
 
