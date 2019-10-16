@@ -8,6 +8,7 @@ var foods = ["eggs", "cheese", "bread"];
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
 
+var last = foods[foods.length - 1];
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
