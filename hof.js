@@ -22,8 +22,24 @@ var people = [
 // Type your solution immediately below this line:
 
 
+// **Yeah, I really don't remember how to use map or filter without googling this.
+// var peopleNames = people.map(people.name);
+var peopleNames = []
+for (var i = 0; i < people.length; i++) {
+  peopleNames.push(people[i].name);
+}
+
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+
+// var polyglotPeople = people.filter();
+var polyglotPeople = []
+for (var i = 0; i < people.length; i++) {
+  if (people[i].knownLanguages >= 2) {
+    polyglotPeople.push(people[i])
+  }
+}
