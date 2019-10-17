@@ -20,9 +20,13 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
-
-var peopleNames = people.map(function(name){
+/*
+var peopleNames = people.map((function(name){
   console.log(peopleNames);
+}); */
+
+var peopleNames = people.map(person => {
+  return person.name
 });
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
@@ -30,5 +34,8 @@ var peopleNames = people.map(function(name){
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
 
+/*
 var polyglotPeople = people.filter => people.knownLanguages > 1;
-console.log(polyglotPeople);
+console.log(polyglotPeople); */
+
+var polyglotPeople = people.filter(person => person.knownLanguages > 1);
