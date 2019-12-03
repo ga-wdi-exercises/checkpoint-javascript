@@ -7,7 +7,16 @@
 // Type your solution immediately below this line:
 
 
-
+class Playlist {
+  constructor(title,songs) {
+    this.title = title;
+    this.songs = [];
+  }
+    addSong(song) {
+      this.song = song;
+      this.songs.push(song);
+    }
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
@@ -15,7 +24,8 @@
 // Type your solution immediately below this line:
 
 
-
+const myPlaylist = new Playlist('myPlaylist','songs');
+myPlaylist.addSong('Mysterious');
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
@@ -24,3 +34,4 @@ if(typeof Playlist !== 'undefined') {
     Playlist
   }
 }
+
