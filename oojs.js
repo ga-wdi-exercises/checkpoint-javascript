@@ -7,7 +7,13 @@
 // Type your solution immediately below this line:
 
 
-
+class Playlist {
+  constructor(title, songs, addSong) {
+    title: ("")
+    songs: []
+    addSong: songs.push() 
+  }
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
