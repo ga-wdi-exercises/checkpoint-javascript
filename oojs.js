@@ -7,20 +7,27 @@
 // Type your solution immediately below this line:
 
 
-
+class Playlist {
+    constructor(title) {
+        this.title = title;
+        this.songs = [];
+    }
+    addSong(song) {
+        this.songs.push(song);
+    }
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
-
-
-
+myPlaylist = new Playlist("Sweet");
+myPlaylist.addSong("Ride Or Die");
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-if(typeof Playlist !== 'undefined') {
-  module.exports = {
-    Playlist
-  }
+if (typeof Playlist !== 'undefined') {
+    module.exports = {
+        Playlist
+    }
 }
