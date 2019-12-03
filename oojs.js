@@ -7,6 +7,12 @@
 // Type your solution immediately below this line:
 
 
+class Playlist { 
+  constructor(title) {
+    this.title = '';
+  }
+
+
 
 
 

@@ -25,7 +25,7 @@ var favoriteFoods = []
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 
-favoriteFoods.push(foods.length)
+foods.push(favoriteFoods)
 console.log(favoriteFoods)
 
 
@@ -48,9 +48,9 @@ console.log(instructor)
 // a boolean value.
 // Type your solution immediately below this line:
 
-//instructor[has-office-hours] = 'Monday'
-//console.log(instructor)
-//
+new instructor (has-office-hours = 'Monday')
+console.log(instructor)
+
 
 
 

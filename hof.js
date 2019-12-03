@@ -14,16 +14,25 @@ var people = [
     age: 35,
     knownLanguages: 2
   }
-]
+];
 
 // #1: Use the `map` array method to create a new array containing the names of each
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+var peopleNames = people.map(function(name){
+	for (let i = 0; i<name.length; i++)
+		return name[i];
+});
+
+console.log(peopleNames)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+
+
