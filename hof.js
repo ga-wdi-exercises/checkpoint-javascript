@@ -21,6 +21,13 @@ var people = [
 // called `peopleNames`.
 // Type your solution immediately below this line:
 
+var peopleNames = []
+
+for (var i = 0; i < people.length; i++) {
+  return(people[i].name)
+  function
+}
+
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
