@@ -20,6 +20,8 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleNames`.
 // Type your solution immediately below this line:
+ 
+var people.name = peopleNames
 
 
 
@@ -27,3 +29,6 @@ var people = [
 // persons from the `people` array who know multiple languages. Assign the returned array
 // to a variable called `polyglotPeople`.
 // Type your solution immediately below this line:
+
+var polyglotPeople = people.filter(function(people){
+  return people.knownLanguages >= 2
