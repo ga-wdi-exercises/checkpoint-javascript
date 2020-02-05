@@ -8,7 +8,7 @@ var foods = ['pizza', 'sandwich', 'salad'];
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
 
-
+var last = foods[foods.length - 1]
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
@@ -38,4 +38,4 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-instructor['Matt'] = 'has-office-hours': true,
+instructor['has-office-hours'] = true
