@@ -9,17 +9,16 @@ var Playlist = class {
   constructor(param) {
     this.title =  param,
     this.songs =  [],
-    this.addSong =  function(song){
-    this.songs.push(song)}
+    this.addSong =  function(param){
+    this.songs.push(param)}
   }
  }
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
-var myPlaylist = new Playlist();
+var myPlaylist = new Playlist("Alicia Keys");
 myPlaylist.addSong("The national anthem");
-
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
