@@ -38,5 +38,5 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-instructor.has-office-hours = false;
-console.log(instructor);
+instructor[`has-office-hours`] = false;
+
