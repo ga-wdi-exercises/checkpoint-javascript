@@ -5,14 +5,15 @@
 // - a `songs` property that is an empty array not determined by input (not passed into the constructor)
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
-var Playlist = class{
+class Playlist{
   constructor(title){
-    title = title;
-    songs = [];
+    this.title = title;
+    this.songs = [];
+    this.addSong = function (n){
+      this.songs.push(n)
+    }
   }
-  addSong(n){
-    this.songs.push(n)
-  }
+  
 }
 
 
@@ -23,7 +24,7 @@ var Playlist = class{
 // Type your solution immediately below this line:
 var myPlaylist = new Playlist('My Playlist');
 myPlaylist.addSong('song');
-
+console.log(myPlaylist.songs)
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
