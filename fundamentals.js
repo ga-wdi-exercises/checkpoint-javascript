@@ -29,9 +29,18 @@ for (var i=0; i<foods.length;i++) {
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
 
+var instructor = {
+	name: "bob",
+	age: 200,
+	height: "short"
+}
+
 
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
+
+
+instructor[`has-office-hours`]= false
