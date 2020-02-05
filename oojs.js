@@ -6,16 +6,22 @@
 // - an `addSong` method that adds a song (string) to the `songs` array
 // Type your solution immediately below this line:
 
-
-
-
+function createNewPlaylist (Playlist) {
+	this.title = '',
+	this.songs = [],
+	this.addsong = function(){
+		songs.push();
+	},
+};
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
-
-
+const myPlaylist = createNewPlaylist('myPlaylist');
+	this.title = 'myPlaylist',
+	this.songs = ['One', 'Know Your Enemey', 'First Date'],
+	
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
