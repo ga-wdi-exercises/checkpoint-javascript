@@ -11,7 +11,7 @@ class Playlist {
     this.songs = [];
   }
   addSong() {
-    var songs = "The Box";
+    this.songs.push("The Box");
   }
 }
 
@@ -19,7 +19,7 @@ class Playlist {
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 var myPlaylist = new Playlist("Roddy Rich");
-myPlaylist.addSong("Work Plz");
+myPlaylist.addSong("High Fashion");
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if (typeof Playlist !== "undefined") {
