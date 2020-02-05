@@ -10,10 +10,9 @@ To run the tests in the terminal, run `npm test`. Every time you make a change a
 
 ## Instructions
 
-This checkpoint is divided into three sections:
+This checkpoint is divided into two sections:
 
 - Fundamentals in `fundamentals.js`
-- Higher-order Functions in `hof.js`
 - Object Oriented JavaScript in `oojs.js`
 
 Each section has a series of prompts written in inline-comments. Write the JavaScript necessary to complete each prompt in each of the three files. **DO NOT** modify any of the comments or the tests may fail.
