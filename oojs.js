@@ -7,6 +7,21 @@
 // Type your solution immediately below this line:
 
 
+class Playlist {
+  constructor(input) {
+    this.title = input;
+    this.songs = [];
+    this.addSong = function(song) {
+      // var goodSong = "Started from the bottom now we hear";
+      // goodSong.split("").join("");
+
+      this.songs.push(song);
+    };
+  }
+}
+
+// var playList = new Playlist();
+// Playlist.addSong();
 
 
 
@@ -14,6 +29,9 @@
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
+var myPlaylist = new Playlist();
+// // var song = ["Party in the USA!"];
+myPlaylist.addSong();
 
 
 
