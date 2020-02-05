@@ -22,7 +22,8 @@ class Playlist {
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
-
+var myPlaylist = new Playlist ('myJamz')
+myPlaylist.addSong('Wonderwall')
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
