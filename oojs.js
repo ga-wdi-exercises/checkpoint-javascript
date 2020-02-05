@@ -9,11 +9,10 @@ class Playlist{
   constructor(title){
     this.title = title;
     this.songs = [];
-    this.addSong = function (n){
-      this.songs.push(n)
-    }
   }
-  
+  addSong(n){
+    this.songs.push(n)
+  }
 }
 
 
@@ -24,7 +23,6 @@ class Playlist{
 // Type your solution immediately below this line:
 var myPlaylist = new Playlist('My Playlist');
 myPlaylist.addSong('song');
-console.log(myPlaylist.songs)
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
