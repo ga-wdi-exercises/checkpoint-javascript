@@ -7,13 +7,13 @@
 // Type your solution immediately below this line:
 
 class Playlist {
-  constructor(title, songs) {
+  constructor(title) {
     this.title = title
-    this.songs = songs
-  }
+    }
+  songs = []
 
-  addSong() {
-    console.log('Hello')
+  addSong(param) {
+    this.songs.push(param)
   }
 }
 
