@@ -21,8 +21,6 @@ class Playlist {
 var myPlaylist = new Playlist (`Jeffs Favs`)
 myPlaylist.addSong(`Welcome To The Jungle`)
 
-
-
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
   module.exports = {
