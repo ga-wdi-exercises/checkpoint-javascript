@@ -18,9 +18,11 @@ var favoriteFoods = [];
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 for (var i = 0; i < foods.length; i++) {
-    {(var j = 0; i <favoriteFoods.length; j++)
+    (var j = 0; i <foods.length; j++) 
+
     
-}
+    
+
 
 }
 
