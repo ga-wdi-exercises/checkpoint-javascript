@@ -7,8 +7,19 @@
 // Type your solution immediately below this line:
 
 
+class Playlist{
+  constructor(t,song){
+  this.title= t,
+  this.songs= [],
+  this.addSong =function(s){
+    songs.push(s)
+  }
+addSong(song);
+}
+}
+var coldplay = new Playlist("Viva la Vida", "Speed of Sound");
 
-
+console.log(coldplay.title);
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
