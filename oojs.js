@@ -7,15 +7,33 @@
 // Type your solution immediately below this line:
 
 
+class Playlist {
+  constructor(title) {
+    this.title = title
+    this.songs = []
+  }
+  addSong = () => this.songs = this.songs.push(this.title[0]);
+}
 
+var song = new Playlist("Lucy in the Sky with Diamonds");
 
+console.log(song)
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
+// class myPlaylist extends Playlist {
+//   super(title) {
+//     this.title = title
+//     this.songs = []
+//   }
+// addSong = () => this.songs = this.song.push(this.title[0]);
+// }
 
+// this above ^^^ is a sub-class (i think  <0.0> ) 
 
+var myPlaylist = new Playlist("Spaceships")
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
