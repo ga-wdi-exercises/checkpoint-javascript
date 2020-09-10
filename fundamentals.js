@@ -43,6 +43,7 @@
 // a boolean value.
 // Type your solution immediately below this line:
 
-    instructor.has_office_hours = true;
+   // instructor.has_office_hours = true;
+    instructor['has-office-hours'] = true;
 
     console.log(instructor);
