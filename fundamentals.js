@@ -12,7 +12,7 @@ foods[2] = last;
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
-
+var favoriteFoods = [];
 
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
