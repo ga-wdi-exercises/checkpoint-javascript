@@ -21,7 +21,11 @@
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 
+    for ( var i = 0; i < foods.length; i++) {
+        favoriteFoods += foods[i] + " ";
+    }
 
+    console.log(`favoriteFoods is now: ${favoriteFoods}`);
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
