@@ -16,12 +16,18 @@ var favoriteFoods = [];
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
-
+for (let i =0; i < fodds.length; i++) {
+    favoriteFoods.push(foods[i]);
+}
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
-
+var instructor = {
+    firstName: 'Casey',
+    middle: 'R',
+    lastName: 'Harding'
+}
 
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
