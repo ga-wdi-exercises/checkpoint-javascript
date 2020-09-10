@@ -24,7 +24,10 @@ for (var i = 0 ; i<3 ; i++) {
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
-
+var instructor = new Object();
+instructor.gender = 'male';
+instructor.hair = 'dark';
+instructor.glasses = 'yes';
 
 
 // #6: Add a `has-office-hours` (spelled exactly) property to `instructor` by accessing
