@@ -23,8 +23,10 @@
 // Type your solution immediately below this line:
 
 
+  var myPlaylist = new Playlist("New Song");
 
-
+  myPlaylist.addSong();
+  console.log(myPlaylist);
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Playlist !== 'undefined') {
