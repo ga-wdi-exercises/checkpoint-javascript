@@ -9,12 +9,12 @@ class Playlist {
   constructor(title) {
     this.title = title;
     this.songs = [];
-    this.addSong = addSong();
-  
+    // this.addSong = addSong(title);
+    this.addSong = function addSong(add) {this.songs.push(add)}
   }
-  function addSong(add) {
-    songs.push(add)
-  }
+  // addSong(add) {
+  //   this.songs.push(add)
+  // }
 }
 
 
@@ -24,8 +24,7 @@ class Playlist {
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 var myPlaylist = new Playlist('Song')
-newPlay.addSong
-
+myPlaylist.addSong("Song")
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
