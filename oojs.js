@@ -22,7 +22,9 @@ class playlist {
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
+var myPlaylist = new playlist('myPlaylist');
 
+myPlaylist.addSong("Super Rad!");
 
 
 
