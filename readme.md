@@ -24,7 +24,7 @@ Each section has a series of prompts written in inline-comments. Write the JavaS
 **DO NOT** modify the files in the `/test/` folder.
 
 ## Submission
-
+first you have an GitHub account ready
 Fork this repository and clone your fork locally. Commit as you go. When you are finished, push to GitHub.
 
 **Wait until the end of the hour to make your Pull Request**
