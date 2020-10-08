@@ -19,12 +19,16 @@ var favoriteFoods=[]
 var favoriteFoods = []
 var foods =["Pizza", "Chicken", "Cake"]
 for(i=0; i <foods.length; i++) {
-    favoriteFoods +=foods[i];
 }
 
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
+var instructor = {
+    name: "John Doe",
+    age: 40,
+    class: "biology",
+}
 
 
 
