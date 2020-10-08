@@ -6,7 +6,7 @@ var foods = ['banana', 'berry', 'grape']
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
-
+var last = foods[2] 
 
 
 // #3: Create an empty array called `favoriteFoods`.
