@@ -17,7 +17,7 @@ var favoriteFoods = [];
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
 // Type your solution immediately below this line:
 for ( i=0; i<foods.length; i++ ) {
-    favoriteFoods.push(foods);
+    favoriteFoods.push(foods[i]);
 }
 
 
@@ -35,10 +35,6 @@ var instructor = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-var instructor = {
-    name: "Peter",
-    location: "Boston",
-    drink: "tea"
-};
+instructor.has-office-hours = "true";
 
-instructor[has-office-hours] = true;
+
