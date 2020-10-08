@@ -7,6 +7,15 @@
 // Type your solution immediately below this line:
 
 
+class Playlist {
+  songs = []
+  constructor(title) {
+    this.title = title;
+  }
+  addSong(song) {
+    this.songs.push(song);
+};
+}
 
 
 
@@ -14,7 +23,11 @@
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
 
+myPlaylist = new Playlist("myPlaylist");
+myPlaylist.addSong("Lay it all on me")
 
+console.log(myPlaylist);
+console.log(myPlaylist.songs);
 
 
 
