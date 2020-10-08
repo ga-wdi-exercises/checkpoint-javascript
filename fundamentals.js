@@ -7,12 +7,12 @@ var foods = [`candy`, `cookies`, `cheese`];
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
-const last = foods[foods.length - 1];
+var last = foods[foods.length - 1];
 
 
 // #3: Create an empty array called `favoriteFoods`.
 // Type your solution immediately below this line:
-const favoriteFoods = [];
+var favoriteFoods = [];
 
 
 // #4: Create a `for` loop that adds each string in `foods` to `favoriteFoods`.
@@ -22,7 +22,7 @@ foods.forEach((food) => favoriteFoods.push(food));
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
-let instructor = {
+var instructor = {
     name: `Leo`,
     age: `yes`,
     message: `Give me a thumbs up!`
