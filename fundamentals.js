@@ -28,6 +28,12 @@ for (let i=0; i<foods.length; i++){
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
+var instructor = {
+    biography: 'bob',
+    english: 'thomas',
+    history: 'mary'
+}
+
 
 
 
