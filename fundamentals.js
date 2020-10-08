@@ -32,6 +32,7 @@ var instructor = {
     biography: 'bob',
     english: 'thomas',
     history: 'mary'
+    
 }
 
 
@@ -41,3 +42,4 @@ var instructor = {
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
+instructor.hours = 'has-office-hours'
