@@ -22,6 +22,7 @@ for(i=0;i<foods.length;i++){
 
 // #5: Create an object literal called `instructor` that contains three key-value pairs.
 // Type your solution immediately below this line:
+var instructor = {one: "Leo", two: "Peter", three: "Suresh"};
 
 
 
