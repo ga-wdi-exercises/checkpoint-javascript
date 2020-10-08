@@ -2,11 +2,12 @@
 
 // #1: Create an array of strings called `foods` that contains three foods.
 // Type your solution immediately below this line:
+var foods = ['pizza', 'pasta', 'garlic bread'];
 
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
-
+//var last = foods[foods.length-1];
 
 
 // #3: Create an empty array called `favoriteFoods`.
