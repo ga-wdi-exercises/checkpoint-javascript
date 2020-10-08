@@ -11,7 +11,7 @@ class Playlist{
   }
   songs = [];
   addSong(song){
-    songs.push(song);
+    this.songs.push(song);
   }
 }
 
@@ -20,7 +20,8 @@ class Playlist{
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
 // Call the instance's `addSong` method to add a song to the instance's `songs` array
 // Type your solution immediately below this line:
-
+myPlaylist = new Playlist("myPlaylist");
+myPlaylist.addSong("Takin' Care of Business");
 
 
 
