@@ -6,7 +6,7 @@ var foods =["Pizza", "Chicken", "Cake"]
 
 // #2: Access the last item in the array and assign to a variable called `last`.
 // Type your solution immediately below this line:
-
+var last = "Cake"
 
 
 // #3: Create an empty array called `favoriteFoods`.
