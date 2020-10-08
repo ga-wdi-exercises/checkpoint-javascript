@@ -7,7 +7,15 @@
 // Type your solution immediately below this line:
 
 
-
+class Playlist{
+  constructor(title){
+    this.tile = title;
+    this.songs = [""];
+  }
+  addSong(song) {
+    songs.push(song);
+  }
+}
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
@@ -15,6 +23,8 @@
 // Type your solution immediately below this line:
 
 
+var myPlaylist = new Playlist("Hello");
+myPlaylist.addSong("myFavoriteSong");
 
 
 
