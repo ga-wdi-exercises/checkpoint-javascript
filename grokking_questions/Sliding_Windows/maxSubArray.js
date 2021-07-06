@@ -58,10 +58,5 @@
     console.log(maxSum(array,k));
     
     module.exports = maxSum;
-    
-    // Reply to conversation with "👍"👍
-    
-    // Reply to conversation with "Thanks"Thanks
-    
-    // Reply to conversation with "Okay"Okay
+
     
